@@ -1,0 +1,2172 @@
+# Malay translation for beat-box
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the beat-box package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: beat-box\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-10-28 11:18-0400\n"
+"PO-Revision-Date: 2012-08-11 23:12+0000\n"
+"Last-Translator: abuyop <Unknown>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2012-11-20 05:11+0000\n"
+"X-Generator: Launchpad (build 16286)\n"
+
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:321
+msgid "Resolve"
+msgstr "Leraikan"
+
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:766
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:340
+msgid "Import Complete"
+msgstr "Import Selesai"
+
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:766
+#, c-format
+msgid "BeatBox has imported your %s library."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:859
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:866
+#, c-format
+msgid "%s media files could not be found."
+msgstr "%s fail media tidak ditemui."
+
+#: /home/scott/beat-box/po/../src//Core/FileOperator.vala:459
+#, c-format
+msgid "Copying files to %s Folder..."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/FileOperator.vala:479
+#, c-format
+msgid "Copying %s to %s Folder"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:36
+msgid "Cancelling remaining downloads..."
+msgstr "Membatalkan muat turun berbaki..."
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:37
+msgid "Fetching new podcast episodes"
+msgstr "Mendapatkan episod podcast baru"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:38
+#, c-format
+msgid "Searching for new %s podcast episodes..."
+msgstr "Menggelintar %s episod podcast baru..."
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:39
+#, c-format
+msgid "Fetching podcast from %s"
+msgstr "Mendapatkan podcast dari %s"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:40
+#, c-format
+msgid "Downloading %s (%d of %d)"
+msgstr "Memuat turun %s (%d dari %d)"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:48
+msgid "Downloading new Podcasts"
+msgstr "Memuat turun Podcast baru"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:138
+msgid "Parsing new Podcast RSS"
+msgstr "Menghurai RSS Podcast baru"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:339
+msgid "Downloading Podcast Episodes"
+msgstr "Memuat Turun Episod Podcast"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:349
+msgid "Downloading Podcast Episodes..."
+msgstr "Memuat Turun Episod Podcast..."
+
+#: /home/scott/beat-box/po/../src//Core/PlaylistManager.vala:179
+msgid "Adding playlist to Library"
+msgstr "Menambah senarai main ke Pustaka"
+
+#: /home/scott/beat-box/po/../src//Core/PlaylistManager.vala:199
+#, c-format
+msgid "Importing %s to Library..."
+msgstr "Mengimport %s ke Pustaka..."
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:41
+msgid "Create Playlist"
+msgstr "Cipta Senarai Main"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:41
+msgid "Create a new Playlist"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:42
+msgid "Create Smart Playlist"
+msgstr "Cipta Senarai Main Pintar"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:42
+msgid "Create a new Smart Playlist"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:43
+msgid "Import Playlist"
+msgstr "Import Senarai Main"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:43
+msgid "Import playlist from file"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:44
+msgid "Import Station"
+msgstr "Import Stesen"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:44
+msgid "Import station from file"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:45
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:51
+msgid "Add RSS Feed"
+msgstr "Tambah Suapan RSS"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:45
+msgid "Add a new RSS Podcast Feed to your library"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:46
+msgid "Download new Episodes"
+msgstr "Muat turun Episod baru"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:46
+msgid "Download new Podcast Episodes"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:47
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:60
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:54
+msgid "Preferences"
+msgstr "Keutamaan"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:48
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:61
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:80
+msgid "Equalizer"
+msgstr "Penyama"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:49
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:59
+msgid "Next"
+msgstr "Berikutnya"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:50
+msgid "Play/Pause"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:51
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:57
+msgid "Previous"
+msgstr "Terdahulu"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:52
+msgid "Ban"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:52
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:53
+msgid "Love"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:54
+msgid "Show Duplicates"
+msgstr "Papar Pendua"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:55
+msgid "Hide Duplicates"
+msgstr "Sembunyi Pendua"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:56
+msgid "Exit"
+msgstr "Keluar"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:129
+#, c-format
+msgid "Choose %s Folder"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:147
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:299
+#, c-format
+msgid "Import %s"
+msgstr "Import %s"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:175
+msgid "Import Failed"
+msgstr "Import Mengalami Kegagalan"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:175
+#, c-format
+msgid ""
+"Your library's %s folder could not be found. Please make sure your %s folder "
+"is mounted before importing."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:179
+msgid "Doing Partial Import"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:179
+#, c-format
+msgid ""
+"Some of the folders you selected to import are already in your %s Folder. "
+"Please rescan instead."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:266
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:129
+msgid "Pause"
+msgstr "Jeda"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:270
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:58
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:129
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:190
+msgid "Play"
+msgid_plural "Plays"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:335
+msgid "Invalid Playlist"
+msgstr "Senarai Main Tidak Sah"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:335
+msgid "Unrecognized playlist file. Import failed."
+msgstr "Fail senarai main tidak dikenali. Import mengalami kegagalan."
+
+#: /home/scott/beat-box/po/../src//Media/Podcast.vala:77
+#: /home/scott/beat-box/po/../src//Media/Song.vala:57
+#: /home/scott/beat-box/po/../src//NowPlayingView/SongSummarySection.vala:326
+#: /home/scott/beat-box/po/../src//NowPlayingView/PodcastSummarySection.vala:290
+#: /home/scott/beat-box/po/../core//Media/Preview.vala:57
+#: /home/scott/beat-box/po/../plugins//Store/Widgets/AlbumView.vala:338
+msgid "Unknown Artist"
+msgstr "Artis Tidak Diketahui"
+
+#: /home/scott/beat-box/po/../src//Media/Podcast.vala:77
+#: /home/scott/beat-box/po/../src//Media/Station.vala:77
+#: /home/scott/beat-box/po/../src//Media/Song.vala:57
+#: /home/scott/beat-box/po/../core//Media/Preview.vala:57
+msgid " by "
+msgstr " oleh "
+
+#: /home/scott/beat-box/po/../src//Media/Podcast.vala:78
+#: /home/scott/beat-box/po/../src//Media/Song.vala:58
+#: /home/scott/beat-box/po/../src//NowPlayingView/SongSummarySection.vala:327
+#: /home/scott/beat-box/po/../src//NowPlayingView/PodcastSummarySection.vala:291
+#: /home/scott/beat-box/po/../src//NowPlayingView/PodcastSummarySection.vala:299
+#: /home/scott/beat-box/po/../core//Media/Preview.vala:58
+msgid "Unknown Album"
+msgstr "Album Tidak Diketahui"
+
+#: /home/scott/beat-box/po/../src//Media/Podcast.vala:78
+#: /home/scott/beat-box/po/../src//Media/Station.vala:78
+#: /home/scott/beat-box/po/../src//Media/Song.vala:58
+#: /home/scott/beat-box/po/../core//Media/Preview.vala:58
+msgid " on "
+msgstr " pada "
+
+#: /home/scott/beat-box/po/../src//Media/Station.vala:76
+msgid "Unknown Song"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:45
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:51
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:51
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:57
+msgid "Library Management"
+msgstr "Pengurusan Pustaka"
+
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:46
+msgid "Keep media folders organized"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:47
+msgid "Write metadata to file"
+msgstr "Tulis data meta ke fail"
+
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:48
+msgid "Copy files to library folder when imported"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:52
+msgid "Login"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:53
+msgid "Logout"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:56
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:60
+msgid "Authentication"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:73
+msgid "Username:"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:74
+msgid "Password:"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:161
+#, c-format
+msgid "You are logged in as %s."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:169
+#, c-format
+msgid "BeatBox was unable to log in as %s. Please try again."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:46
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:56
+msgid "Podcast Library Location"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:47
+msgid "Podcast Folder"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:48
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:47
+msgid "Import..."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:49
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:48
+msgid "Rescan"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:52
+msgid "Automatically download new podcast episodes"
+msgstr "Muat turun episod podcast baru secara automatik"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:109
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:95
+msgid "Could not find Music Folder"
+msgstr "Tidak dapat cari Folder Muzik"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:109
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:95
+msgid "Please make sure that your Music folder is accessible and mounted."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:125
+msgid ""
+"Please wait until all operations finish before setting your podcast folder."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:45
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:51
+msgid "Music Library Location"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:46
+msgid "Music Folder"
+msgstr "Folder Muzik"
+
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:111
+msgid ""
+"Please wait until all operations finish before setting your music folder."
+msgstr ""
+"Sila tunggu sehingga semua operasi selesai sebelum menetapkan folder muzik "
+"anda."
+
+#: /home/scott/beat-box/po/../src//SourceViews/SourceView.vala:280
+msgid "No Results"
+msgstr "Tiada Keputusan"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SourceView.vala:280
+msgid "Your search query returned no results."
+msgstr "Pertanyaan gelintar anda kembalikan tiada keputusan."
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:45
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:46
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:37
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:120
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:67
+msgid "song"
+msgid_plural "songs"
+msgstr[0] "lagu"
+msgstr[1] "lagu"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:54
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:46
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:46
+msgid "Save as Playlist"
+msgstr "Simpan sebagai Senarai Main"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:55
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:47
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:62
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:61
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:47
+msgid "Export..."
+msgstr "Eksport..."
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:113
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:220
+#, c-format
+msgid "Similar to %s"
+msgstr "Seakan %s"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:147
+#, c-format
+msgid "BeatBox is finding songs similar to <b>%s</b> by <b>%s</b>"
+msgstr "BeatBox mencari lagu yang serupa dengan  <b>%s</b> oleh <b>%s</b>"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:148
+msgid "Fetching similar songs"
+msgstr "Mendapatkan lagu yang serupa"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:156
+#, c-format
+msgid "BeatBox could not find songs similar to <b>%s</b> by <b>%s</b>. "
+msgstr ""
+"BeatBox tidak dapat cari lagu yang serupa dengan <b>%s</b> oleh <b>%s</b>. "
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:157
+msgid ""
+"Make sure all song info is correct and you are connected to the Internet. "
+"Some songs may not have matches."
+msgstr ""
+"Pastikan semua maklumat lagu adalah betul dan anda bersambung dengan "
+"Internet. Beberapa lagu mungkin tidak mempunyai padanan."
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:158
+msgid "No similar songs found"
+msgstr "Tiada lagu yang serupa ditemui"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:187
+msgid "Similar Songs"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:220
+msgid "Similar list"
+msgstr "Senarai serupa"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:46
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:39
+#: /home/scott/beat-box/po/../src//SourceViews/DefaultSourceView.vala:38
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:49
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:48
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:39
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:132
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:80
+msgid "item"
+msgid_plural "items"
+msgstr[0] "item"
+msgstr[1] "item"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:51
+msgid "Remove Checked Items"
+msgstr "Buang Item Ditanda"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:53
+msgid "Manually select duplicates"
+msgstr "Pilih pendua secara manual"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:54
+msgid "Keep highest bitrate"
+msgstr "Kekalkan kadar bit tertinggi"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:55
+msgid "Keep largest file"
+msgstr "Kekalkan fail terbesar"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:85
+msgid "Victory! No Duplicates!"
+msgstr "Berjaya! Tiada Pendua!"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:85
+msgid "Your library has no duplicates."
+msgstr "Pustaka anda tidak mempunyai pendua."
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:186
+msgid "Duplicates"
+msgstr "Pendua"
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:67
+msgid "No songs in History"
+msgstr "Tiada lagu dalam Sejarah"
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:67
+msgid ""
+"After a part of a song has been played, it is added to the history list."
+msgstr ""
+"Selepas sebahagian lagu telah dimainkan, ia akan ditambah ke senarai sejarah."
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:68
+msgid ""
+"You can use this list to see all the songs you have played during the "
+"current session."
+msgstr ""
+"Anda boleh guna senarai ini untuk lihat semua lagu yang anda telah main "
+"sepanjang sesi semasa."
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:91
+msgid "History"
+msgstr "Sejarah"
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:112
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:126
+msgid " play history"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//SourceViews/DefaultSourceView.vala:56
+msgid "No Media Found"
+msgstr "Tiada Media Ditemui"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DefaultSourceView.vala:56
+msgid "There is no media here."
+msgstr "Tiada media disini."
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:40
+msgid "podcast"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:43
+msgid "Subscribe to Podcasts"
+msgstr "Langgan ke Podcast"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:43
+msgid "No Podcasts were found."
+msgstr "Tiada Podcast ditemui."
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:46
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:45
+msgid "Search"
+msgstr "Gelintar"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:46
+msgid "Find RSS feeds online."
+msgstr "Cari suapan RSS atas talian."
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:74
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:81
+msgid "No Podcasts Found"
+msgstr "Tiada Podcast Ditemui"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:74
+msgid ""
+"To add a podcast, visit a website such as Miro Guide to find RSS Feeds."
+msgstr ""
+"Untuk menambah podcast, lawati laman sesawang seperti Miro Guide untuk "
+"mencari Suapan RSS."
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:75
+msgid ""
+"You can then copy and paste the feed into the \"Add Podcast\" window by "
+"right clicking on \"Podcasts\"."
+msgstr ""
+"Anda boleh salin dan tampal suapan ke dalam tetingkap \"Tambah Podcast\" "
+"dengan mengklik kanan pada \"Podcast\"."
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:115
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:174
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:91
+#: /home/scott/beat-box/po/../src//Libraries/PodcastLibrary.vala:36
+msgid "Podcasts"
+msgstr "Podcast"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:55
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:216
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:155
+msgid "Import to Library"
+msgstr "Import ke Pustaka"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:56
+msgid "Eject"
+msgstr "Lenting"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:81
+msgid ""
+"This device supports podcasts. To sync podcasts with this device, edit the "
+"device's preferences."
+msgstr ""
+"Peranti ini menyokong podcast. Untuk segerak podcast dengan peranti ini, "
+"sunting keutamaan peranti itu."
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:86
+msgid "No Music Found"
+msgstr "Tiada Muzik Ditemui"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:86
+msgid "To sync music with this device, edit the device's preferences."
+msgstr ""
+"Untuk segerak muzik dengan peranti ini, sunting keutamaan peranti tersebut."
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:94
+msgid "Audio CD Invalid"
+msgstr "CD Audio Tidak Sah"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:94
+msgid "BeatBox could not read the contents of this Audio CD."
+msgstr "BeatBox tidak dapat baca kandungan CD Audio ini."
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:172
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:183
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:90
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:36
+msgid "Music"
+msgstr "Muzik"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:176
+msgid "Audiobooks"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:60
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:59
+msgid "Edit"
+msgstr "Sunting"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:61
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:60
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:346
+msgid "Remove"
+msgstr "Buang"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:134
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:83
+msgid "No Media"
+msgstr "Tiada Media"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:134
+msgid ""
+"No media fits this smart playlist's rules. To edit its rules, right click on "
+"it in the sidebar and choose \"Edit\"."
+msgstr ""
+"Tiada media yang sesuai dengan peraturan senarai main pintar ini. Untuk "
+"menyunting peraturannya, klik kanan padanya dalam palang sisi dan pilih "
+"\"Sunting\"."
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:39
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:129
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:76
+msgid "station"
+msgid_plural "stations"
+msgstr[0] "stesen"
+msgstr[1] "stesen"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:42
+msgid "Turn up the Radio"
+msgstr "Hidupkan Radio"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:42
+msgid "No Stations were found."
+msgstr "Tiada Stesen ditemui."
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:45
+msgid "Find radio stations online."
+msgstr "Cari stesen radio atas talian."
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:72
+msgid "No Internet Radio Stations Found"
+msgstr "Tiada Stesen Radio Internet Ditemui"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:72
+msgid ""
+"To add a station, visit a website such as SomaFM to find PLS or M3U files."
+msgstr ""
+"Untuk menambah stesen, lawati laman sesawang seperti SomaFM untuk mencari "
+"fail PLS atau M3U."
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:73
+msgid "You can then import the file to add the station."
+msgstr "Anda kemudiannya boleh import fail untuk tambah stesen."
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:113
+msgid "Internet Radio"
+msgstr "Radio Internet"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:83
+msgid ""
+"To add to this playlist, drag and drop songs from a list onto the sidebar "
+"item or\n"
+"right click on an item and choose \"Add to Playlist\"."
+msgstr ""
+"Untuk tambah ke senarai main ini, seret dan lepas lagu dari senarai ke dalam "
+"item\n"
+"palang sisi atau klik kanan pada item dan pilih \"Tambah ke Senarai Main\"."
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:67
+msgid "No songs in Queue"
+msgstr "Tiada lagu dalam Baris Gilir"
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:67
+msgid ""
+"To queue a song, drag and drop a song from a list onto the queue sidebar "
+"item."
+msgstr ""
+"Untuk baris gilirkan lagu, seret dan lepas lagu dari senarai ke dalam item "
+"palang sisi baris gilir."
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:68
+msgid ""
+"When a song finishes, the queued songs will be played first before the next "
+"song in the currently playing list."
+msgstr ""
+"Bila lagu selesai dimainkan, lagu terbaris gilir akan dimain dahulu sebelum "
+"lagi berikutnya dalam senarai semasa  yang dimainkan."
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:90
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:212
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:150
+msgid "Queue"
+msgstr "Baris Gilir"
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:125
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:139
+msgid " play queue"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:40
+msgid "Get Some Tunes"
+msgstr "Dapatkan Beberapa Tona"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:40
+msgid "BeatBox can't find your music."
+msgstr "BeatBox tidak dapat cari muzik anda."
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:43
+msgid "Locate"
+msgstr "Cari"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:43
+msgid "Change your music folder."
+msgstr "Ubah folder muzik anda."
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:78
+msgid "Import songs from audio CD"
+msgstr "Import lagu dari CD audio"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:78
+msgid "Import media from device"
+msgstr "Import media dari peranti"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:150
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:100
+msgid "No External Songs"
+msgstr "Tiada Lagu Luaran"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:150
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:100
+msgid ""
+"There were no songs found on this device that are not in your library."
+msgstr ""
+"Tiada lagu ditemui dalam peranti ini yang mana bukan dalam pustaka anda."
+
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:73
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:59
+msgid "Import from Device"
+msgstr "Import dari Peranti"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:74
+#: /home/scott/beat-box/po/../src//Widgets/SpaceWidget.vala:207
+msgid "Sync"
+msgstr "Segerak"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:75
+msgid "Unmount"
+msgstr "Nyahlekap"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:91
+msgid "Library"
+msgstr "Pustaka"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:92
+msgid "Devices"
+msgstr "Peranti"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:93
+msgid "Network"
+msgstr "Rangkaian"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:94
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:101
+msgid "Plugins"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:95
+msgid "Playlists"
+msgstr "Senarai Main"
+
+#: /home/scott/beat-box/po/../src//Views/PopupListView.vala:197
+#, c-format
+msgid "%s by %s"
+msgstr "%s oleh %s"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:64
+msgid "Device Name"
+msgstr "Nama Peranti"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:82
+msgid "Device Name:"
+msgstr "Nama Peranti:"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:83
+msgid "Automatically sync when plugged in:"
+msgstr "Segerak secara automatik bila dipalamkan:"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:84
+msgid "Sync:"
+msgstr "Segerak"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:93
+msgid "Other"
+msgstr "Lain-lain"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:336
+msgid "All Music"
+msgstr "Semua Muzik"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:338
+msgid "All Podcasts"
+msgstr "Semua Podcast"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:428
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:455
+msgid "Sync Failed"
+msgstr "Segerak Mengalami Kegagaln"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:428
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:455
+#, c-format
+msgid ""
+"The playlist named %s is used to sync device %s, but could not be found."
+msgstr ""
+"Senarai main bernama %s digunakan untuk segerakan peranti %s, tetapi tidak "
+"ditemui."
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:501
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:504
+msgid "Cannot Sync"
+msgstr "Tidak Dapat Segerak"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:501
+msgid ""
+"Cannot sync device with selected sync settings. Not enough space on disk"
+msgstr ""
+"Tidak dapat segerak peranti dengan tetapan segerak terpilih. Ruang cakera "
+"tidak mencukupi"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:504
+msgid "Device is already being synced."
+msgstr "Peranti sudah disegerakan."
+
+#: /home/scott/beat-box/po/../src//Libraries/StationLibrary.vala:36
+msgid "Stations"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:149
+#, c-format
+msgid "Setting %s Folder"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:163
+#, c-format
+msgid "Importing %s from %s..."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:187
+#, c-format
+msgid "Adding files to %s Library"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:199
+#, c-format
+msgid "Adding files to %s library..."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:214
+#, c-format
+msgid "Add folders to %s Library"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:228
+#, c-format
+msgid "Adding media from %s to %s library..."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:231
+#, c-format
+msgid "Adding media from %s folders to %s library..."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:253
+#, c-format
+msgid "Rescanning %s Folder"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:264
+#, c-format
+msgid "Rescanning %s folder for changes..."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Libraries/PodcastLibrary.vala:450
+msgid "Unheard Podcasts"
+msgstr "Podcast Belum Didengari"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:483
+msgid "Favorite Songs"
+msgstr "Lagu Kegemaran"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:492
+msgid "Recently Added"
+msgstr "Baru Ditambah"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:500
+msgid "Recently Played"
+msgstr "Baru Dimainkan"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:508
+msgid "Recent Favorites"
+msgstr "Kegemaran baru-baru ini"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:518
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:173
+msgid "Never Played"
+msgstr "Tidak Pernah Dimainkan"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:527
+msgid "Over Played"
+msgstr "Terlebih Main"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:536
+msgid "Not Recently Played"
+msgstr "Tiada Dimain Baru-baru Ini"
+
+#: /home/scott/beat-box/po/../src//NowPlayingView/SongArtistSection.vala:89
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:164
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:139
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:103
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:56
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:53
+msgid "Artist"
+msgstr "Artis"
+
+#: /home/scott/beat-box/po/../src//NowPlayingView/SongArtistSection.vala:135
+#, c-format
+msgid "Top Tracks"
+msgstr "Trek Teratas"
+
+#: /home/scott/beat-box/po/../src//config.vala:18
+#: /home/scott/beat-box/po/../core//config.vala:18
+msgid "Listen to music, podcasts and stations"
+msgstr "Dengar muzik, podcast dan stesen radio"
+
+#: /home/scott/beat-box/po/../src//config.vala:19
+#: /home/scott/beat-box/po/../core//config.vala:19
+msgid "Audio Player"
+msgstr "Pemain Audio"
+
+#: /home/scott/beat-box/po/../src//config.vala:20
+#: /home/scott/beat-box/po/../core//config.vala:20
+msgid "BeatBox Audio Player"
+msgstr "Pemain Audio BeatBox"
+
+#: /home/scott/beat-box/po/../src//Devices/AndroidDevice.vala:64
+msgid "No Description"
+msgstr "Tiada Keterangan"
+
+#: /home/scott/beat-box/po/../src//Devices/AndroidDevice.vala:92
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:130
+msgid "Unknown capacity"
+msgstr "Kapasiti tidak diketahui"
+
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:98
+msgid "Multimedia Disc"
+msgstr "Cakera Multimedia"
+
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:213
+#, c-format
+msgid "Ripping from %s"
+msgstr "Meretas dari %s"
+
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:270
+#, c-format
+msgid "CD Import cancelled. Finishing ripping track %s..."
+msgstr "Import CD dibatalkan. Selesaikan meretas trek %s..."
+
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:340
+#, c-format
+msgid "BeatBox has finished importing %d song(s) from Audio CD"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:208
+msgid "Unknown Capacity"
+msgstr "Kapasiti Tidak Diketahui"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:282
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:465
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:597
+#, c-format
+msgid "Syncing %s"
+msgstr "Menyegerak %s"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:292
+msgid "Syncing "
+msgstr "Menyegerak "
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:307
+msgid "Removing old medias from iPod and updating current ones"
+msgstr "Membuang media lama dari iPod dan kemaskini yang baru"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:357
+msgid "Adding new media to iPod..."
+msgstr "Menambah media baru ke iPod..."
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:393
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:497
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:644
+msgid "Cancelling Sync..."
+msgstr "Membatalkan Segerak..."
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:393
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:497
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:644
+msgid "Finishing sync process..."
+msgstr "Menyelesaikan proses segerak..."
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:475
+msgid "Syncing"
+msgstr "Menyegerak"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:533
+msgid "Adding"
+msgstr "Menambah"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:534
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:673
+msgid "by"
+msgstr "oleh"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:535
+msgid "to"
+msgstr "ke"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:607
+msgid "Removing from "
+msgstr "Membuang dari "
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:672
+msgid "Removing"
+msgstr "Membuang"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:674
+msgid "from"
+msgstr "dari"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:739
+msgid "Syncing playlists"
+msgstr "Menyegerak senarai main"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:792
+#, c-format
+msgid "Transferring from %s"
+msgstr "Memindah dari %s"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:803
+#, c-format
+msgid "Importing %s items to library..."
+msgstr "Mengimport %s item ke pustaka..."
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:822
+msgid "Importing"
+msgstr "Mengimport"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:822
+msgid "to library"
+msgstr "ke pustaka"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:68
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:98
+msgid "Remove Station"
+msgstr "Buang Stesen"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:82
+#: /home/scott/beat-box/po/../src//Windows/Editors/StationEditor.vala:62
+#: /home/scott/beat-box/po/../core//Media/Media.vala:46
+msgid "Station"
+msgid_plural "Stations"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:83
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:166
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:141
+#: /home/scott/beat-box/po/../src//Windows/Editors/StationEditor.vala:63
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:74
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:106
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:65
+msgid "Genre"
+msgstr "Genre"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:84
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:169
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:144
+#: /home/scott/beat-box/po/../src//Windows/Editors/StationEditor.vala:64
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:77
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:113
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:77
+msgid "Rating"
+msgstr "Penarafan"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:97
+msgid "Edit Station"
+msgstr "Sunting Stesen"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:203
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:415
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:351
+#, c-format
+msgid "Edit %s"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:101
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:88
+msgid "Remove from Library"
+msgstr "Buang dari Pustaka"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:112
+msgid "Remove from Queue"
+msgstr "Buang dari Baris Gilir"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:131
+msgid "Remove from Device"
+msgstr "Buang dari Peranti"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:160
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:135
+msgid "#"
+msgstr "#"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:161
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:136
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:76
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:110
+msgid "Track"
+msgstr "Trek"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:162
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:137
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:71
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:102
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:81
+msgid "Title"
+msgstr "Tajuk"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:163
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:138
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:71
+msgid "Length"
+msgstr "Jangka masa"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:165
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:140
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:105
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:55
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:51
+msgid "Album"
+msgstr "Album"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:167
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:142
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:112
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:83
+msgid "Year"
+msgstr "Tahun"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:168
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:143
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:55
+msgid "Bitrate"
+msgstr "Kadar Bit"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:170
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:145
+msgid "Plays"
+msgstr "Dimainkan"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:171
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:146
+msgid "Skips"
+msgstr "Langkau"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:172
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:147
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:61
+msgid "Date Added"
+msgstr "Tarikh Ditambah"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:173
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:148
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:69
+msgid "Last Played"
+msgstr "Terakhir Dimain"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:174
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:149
+msgid "BPM"
+msgstr "BPM"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:210
+msgid "Edit Song Info"
+msgstr "Sunting Maklumat Lagu"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:211
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:187
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:149
+msgid "Show in File Browser"
+msgstr "Papar dalam Pelayar Fail"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:213
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:151
+#: /home/scott/beat-box/po/../core//Playlists/StaticPlaylist.vala:39
+msgid "New Playlist"
+msgstr "Senarai Main Baru"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:214
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:152
+msgid "Add to Playlist"
+msgstr "Tambah ke Senarai main"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:215
+msgid "Remove Song"
+msgstr "Buang Lagu"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:217
+msgid "Scroll to Current Song"
+msgstr "Tatal ke Lagu Semasa"
+
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:185
+msgid "Check"
+msgstr "Tanda"
+
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:186
+msgid "Uncheck"
+msgstr "jangan Tanda"
+
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:188
+msgid "Remove Media"
+msgstr "Buang Media"
+
+#: /home/scott/beat-box/po/../src//Lists/GenericList.vala:277
+msgid "Playing not Supported"
+msgstr "Main tidak Disokong"
+
+#: /home/scott/beat-box/po/../src//Lists/GenericList.vala:277
+msgid ""
+"Due to issues with playing songs on certain iOS devices, playing songs on "
+"devices is currently not supported."
+msgstr ""
+"Oleh kerana terdapat isu dengan lagu yang dimainkan pada beberapa peranti "
+"IOS, memainkan lagu pada peranti ini tidak disokong."
+
+#: /home/scott/beat-box/po/../src//Lists/GenericList.vala:454
+msgid "Media Editor"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Lists/GenericList.vala:454
+msgid "Editing of multiple media types is not allowed"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:148
+msgid "Edit Podcast"
+msgstr "Sunting Podcast"
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:153
+msgid "Remove Episode"
+msgstr "Buang Episod"
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:154
+msgid "Download"
+msgstr "Muat Turun"
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:478
+msgid "Stopping File Browse"
+msgstr "Menghentikan Layari Fail"
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:478
+msgid ""
+"Too many medias have already been opened in File Browser. Stopping any more "
+"openings."
+msgstr ""
+"Terlalu banyak media telah dibuka dalam Pelayar Fail. Mengentikan mana-mana "
+"pembukaan."
+
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:86
+#: /home/scott/beat-box/po/../src//Windows/PlaylistNameWindow.vala:63
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:149
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:94
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:156
+msgid "Done"
+msgstr "Selesai"
+
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:99
+msgid "General"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:100
+msgid "Libraries"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/PlaylistNameWindow.vala:61
+#: /home/scott/beat-box/po/../src//Windows/PlaylistNameWindow.vala:68
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:74
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:82
+#, c-format
+msgid "Name of Playlist"
+msgstr "Nama Senarai Main"
+
+#: /home/scott/beat-box/po/../src//Windows/PlaylistNameWindow.vala:64
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:81
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:69
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:95
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:157
+msgid "Cancel"
+msgstr "Batal"
+
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:76
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:84
+#, c-format
+msgid "Podcast RSS Source"
+msgstr "Sumber RSS Podcast"
+
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:77
+msgid "Podcast Source..."
+msgstr "Sumber Podcast..."
+
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:80
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:134
+msgid "Add"
+msgstr "Tambah"
+
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:147
+msgid "Save preset"
+msgstr "Simpan praset"
+
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:396
+msgid "Custom Preset"
+msgstr "Praset Suai"
+
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:401
+msgid "Custom"
+msgstr "Suai"
+
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:401
+msgid " Preset"
+msgstr " praset"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:44
+#, c-format
+msgid "Analyzing %d of %d..."
+msgstr "Menganalisis %d dari %d..."
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:51
+msgid "Duplicates Remover"
+msgstr "Pembuang Pendua"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:70
+msgid "Analyze..."
+msgstr "Analisis..."
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:73
+msgid "Media must match by at least "
+msgstr "Media mesti sepadan sekurang-kurangnya "
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:74
+msgid " percent."
+msgstr " peratus"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:93
+msgid "Matching Criteria"
+msgstr "Kriteria Pemadanan"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:94
+msgid "Title and Artist"
+msgstr "Tajuk dan Artis"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:95
+msgid "Title, Artist, and Album"
+msgstr "Tajuk, Artis, dan Album"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:84
+msgid "Metadata"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:119
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:227
+#, c-format
+msgid "Editing %s"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:122
+#, c-format
+msgid "Editing %d medias"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:134
+msgid "Info"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:62
+msgid "Smart Playlist Editor"
+msgstr "Penyunting Senarai Main Pintar"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:75
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:83
+#, c-format
+msgid "Rules"
+msgstr "Peraturan"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:76
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:84
+#, c-format
+msgid "Options"
+msgstr "Pilihan"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:87
+msgid "Playlist Title"
+msgstr "Tajuk Senarai Main"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:93
+msgid "Match"
+msgstr "Padan"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:95
+msgid "any"
+msgstr "sebarang"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:96
+msgid "all"
+msgstr "semua"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:97
+msgid "of the following:"
+msgstr "yang berikut:"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:140
+msgid "Limit to"
+msgstr "Hadkan ke"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:142
+msgid "medias"
+msgstr "media"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:483
+msgid "seconds"
+msgstr "saat"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:487
+msgid "days ago"
+msgstr "hari yang lalu"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:491
+msgid "kbps"
+msgstr "kbps"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:64
+msgid "Location:"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:65
+msgid "File Size:"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:66
+msgid "Date Added:"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:67
+msgid "Last Played:"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:68
+msgid "Last Modified:"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:69
+msgid "Play Count:"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:70
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:79
+msgid "Skip Count"
+msgstr "langkau Kiraan"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:71
+msgid "Duration:"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:72
+msgid "Audio Bitrate:"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:73
+msgid "Sample Rate:"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:164
+msgid "Unknown Size"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:180
+msgid "Never Modified"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:187
+msgid "No Plays"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:194
+msgid "No Skips"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:197
+msgid "Skip"
+msgid_plural "Skips"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:203
+msgid "Unknown Bitrate"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:206
+#, c-format
+msgid "%d kbps"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:210
+msgid "Unknown Sample Rate"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:213
+#, c-format
+msgid "%d Hz"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:72
+msgid "Author"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:73
+#: /home/scott/beat-box/po/../core//Media/Media.vala:42
+msgid "Podcast"
+msgid_plural "Podcasts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:75
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:109
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:57
+msgid "Comment"
+msgstr "Ulasan"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:104
+msgid "Album Artist"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:107
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:59
+msgid "Composer"
+msgstr "Penggubah"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:108
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:67
+msgid "Grouping"
+msgstr "Pengumpulan"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:111
+msgid "Disc"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:155
+msgid "Lyrics"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:36
+#, c-format
+msgid "%s, %s, %s"
+msgstr "%s, %s, %s"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:53
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:60
+msgid "Off"
+msgstr "Dimatikan"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:53
+msgid "Repeat Off"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:54
+#: /home/scott/beat-box/po/../core//Media/Media.vala:40
+msgid "Song"
+msgid_plural "Songs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:54
+msgid "Repeat Song"
+msgstr "Ulang Lagu"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:55
+msgid "Repeat Album"
+msgstr "Ulang Album"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:56
+msgid "Repeat Artist"
+msgstr "Ulang Artis"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:57
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:61
+msgid "All"
+msgstr "Semua"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:57
+msgid "Repeat All"
+msgstr "Ulang Semua"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:60
+msgid "Shuffle Disabled"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:61
+msgid "Shuffle Enabled"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:107
+#, c-format
+msgid "%d minutes"
+msgid_plural "%d minutes"
+msgstr[0] "%d minit"
+msgstr[1] "%d minit"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:110
+#, c-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d jam"
+msgstr[1] "%d jam"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:113
+#, c-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d hari"
+msgstr[1] "%d hari"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:123
+msgid "episode"
+msgid_plural "episodes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:126
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:73
+msgid "audiobook"
+msgid_plural "audiobooks"
+msgstr[0] "buku audio"
+msgstr[1] "buku audio"
+
+#: /home/scott/beat-box/po/../src//Widgets/PresetList.vala:52
+msgid "Automatic"
+msgstr "Automatik"
+
+#: /home/scott/beat-box/po/../src//Widgets/PresetList.vala:53
+msgid "Delete Current"
+msgstr "Padam Semasa"
+
+#: /home/scott/beat-box/po/../src//Widgets/AdvancedSearchBox.vala:39
+msgid "Search..."
+msgstr "Gelintar..."
+
+#: /home/scott/beat-box/po/../src//Widgets/TopDisplay/BufferDisplay.vala:66
+#, c-format
+msgid "Buffering %s..."
+msgstr "Menimbal %s..."
+
+#: /home/scott/beat-box/po/../src//Widgets/TopDisplay/BufferDisplay.vala:69
+msgid "Buffering..."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Widgets/SpaceWidget.vala:264
+msgid "Free"
+msgstr "Bebas"
+
+#: /home/scott/beat-box/po/../src//Widgets/SpaceWidget.vala:382
+msgid "Using %s of %s (%.0f%)"
+msgstr "Menggunakan %s dari %s (%.0f%)"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:76
+msgid "Import medias from"
+msgstr "Import media dari"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:77
+#, c-format
+msgid ""
+"The following files were found on %s, but are not in your library. Check all "
+"files you would like to import."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:78
+msgid "Import all medias"
+msgstr "Import semua media"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:83
+msgid "Import"
+msgstr "Import"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:84
+msgid "Don't Import"
+msgstr "Jangan Import"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:89
+#, c-format
+msgid "Import %s from %s"
+msgstr "Import %s dari %s"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:91
+#, c-format
+msgid "Import %d medias from %s"
+msgstr "Import %d media dari %s"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:172
+msgid "Select individual medias to import:"
+msgstr "Pilih media secara individu untuk diimport:"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:190
+msgid "Check Item"
+msgstr "Semak Item"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:191
+msgid "Check Album"
+msgstr "Semak Album"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:192
+msgid "Check Artist"
+msgstr "Semak Artis"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:283
+msgid "Cannot Import"
+msgstr "Tidak dapat Import"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:283
+msgid ""
+"BeatBox is already doing file operations. Please wait until those finish to "
+"import from "
+msgstr ""
+"BeatBox sudah membuat operasi fail. Sila tunggu sehinggalah ia selesai "
+"diimport "
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:59
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:76
+msgid "Move to Trash"
+msgstr "Alih ke Tong Sampah"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:60
+msgid "Remove from BeatBox"
+msgstr "Buang dari BeatBox"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:70
+msgid "podcast episode"
+msgid_plural "podcast episodes"
+msgstr[0] "episod podcast"
+msgstr[1] "episod podcast"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:88
+#, c-format
+msgid "Remove %d %s from BeatBox?"
+msgstr "Buang %d %s dari Beatbox?"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:94
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:96
+#, c-format
+msgid "Remove %s from BeatBox?"
+msgstr "Buang %s dari BeatBox?"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:103
+#, c-format
+msgid ""
+"This will remove the %s from your library and from any device that "
+"automatically syncs with BeatBox."
+msgstr ""
+"Ia akan buang %s dari pustaka anda dan dari mana-mana peranti yang disegerak "
+"secara automatik dengan BeatBox."
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:43
+#, c-format
+msgid "Sync will remove %d medias from %s"
+msgstr "Segerak akan buang %d media dari %s"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:44
+#, c-format
+msgid ""
+"If you continue to sync, medias will be removed from %s since they are not "
+"on the sync list. Would you like to import them to your library first?"
+msgstr ""
+"Jika anda teruskan segerak, media akan dibuang dari %s kerana ia tiada dalam "
+"senarai segerak. Anda hendak import ia ke dalam pustaka anda dahulu?"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:70
+msgid "Import medias to Library"
+msgstr "Import media ke Pustaka"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:71
+msgid "Continue Syncing"
+msgstr "Terus Menyegerak"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:72
+msgid "Dont Sync"
+msgstr "Jangan Segerak"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:70
+msgid "Export Playlists"
+msgstr "Eksport Senarai Main"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:71
+#, c-format
+msgid "Set %s Folder"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:78
+#, c-format
+msgid "Set %s Folder?"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:81
+#, c-format
+msgid ""
+"Are you sure you want to set the %s folder to %s? This will reset your %s "
+"library."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:125
+msgid "Choose Music Folder"
+msgstr "Pilih Folder Muzik"
+
+#: /home/scott/beat-box/po/../src//Dialogs/InstallGstreamerPluginsDialog.vala:64
+msgid "Install Plugin"
+msgstr "Pasang Pemalam"
+
+#: /home/scott/beat-box/po/../src//Dialogs/InstallGstreamerPluginsDialog.vala:65
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:87
+msgid "Do Nothing"
+msgstr "Jangan Buat Apa-apa"
+
+#: /home/scott/beat-box/po/../src//Dialogs/InstallGstreamerPluginsDialog.vala:69
+#, c-format
+msgid "Required GStreamer plugin not installed"
+msgstr "Pemalam GStreamer yang diperlukan tidak dipasang"
+
+#: /home/scott/beat-box/po/../src//Dialogs/InstallGstreamerPluginsDialog.vala:72
+#, c-format
+msgid ""
+"The plugin for media type %s is not installed.\n"
+" What would you like to do?"
+msgstr ""
+"Pemalam untuk jenis media %s tidak dipasang.\n"
+" Apa yang anda hendak buat?"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:70
+#, c-format
+msgid "BeatBox was unable to import %d medias. The files may be damaged."
+msgstr "BeatBox tidak boleh mengimport %d media. Fail mungkin rosak."
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:71
+msgid "Move all corrupted files to trash"
+msgstr "Buang semua fail rosak ke tong sampah"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:77
+msgid "Ignore"
+msgstr "Abai"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:81
+#, c-format
+msgid "Unable to import %d medias from %s"
+msgstr "Tidak dapat import %d media dari %s"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:106
+msgid "File Location"
+msgstr "Lokasi Fail"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:133
+msgid "Select individual files to move to trash:"
+msgstr "Pilih fail individu untuk dialih ke tong sampah:"
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:84
+#, c-format
+msgid "Remove %s"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:85
+#, c-format
+msgid "Rescan %s Library"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:86
+#, c-format
+msgid "Locate %s"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:91
+#, c-format
+msgid "Could not find %s %s"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:91
+msgid "file"
+msgid_plural "files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:95
+#, c-format
+msgid "The file for %s by %s could not be found. What would you like to do?"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:97
+#, c-format
+msgid "%s files could not be found. What would you like to do?"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:121
+#, c-format
+msgid "%s not found:"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:177
+msgid "Locate Music File"
+msgstr "Cari Fail Muzik"
+
+#: /home/scott/beat-box/po/../src//Utils/PlaylistUtils.vala:229
+msgid "Export Playlist"
+msgstr "Eksport Senarai Main"
+
+#: /home/scott/beat-box/po/../core//Media/Media.vala:44
+msgid "Audiobook"
+msgid_plural "Audiobooks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../core//Media/Media.vala:48
+msgid "Video"
+msgid_plural "Videos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../core//Media/Media.vala:50
+msgid "TV Show"
+msgid_plural "TV Shows"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../core//Media/Media.vala:52
+msgid "Media"
+msgid_plural "Medias"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../core//CellRenderers/CellDataFunctionHelper.vala:133
+#: /home/scott/beat-box/po/../plugins//Store/Widgets/StoreCellRenderer.vala:177
+msgid " kbps"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:44
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:66
+#, c-format
+msgid "%i day"
+msgid_plural "%i days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:70
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:74
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:84
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:94
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:98
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:106
+#, c-format
+msgid "%s and %s"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:92
+#, c-format
+msgid "%s, %s and %s"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:63
+msgid "Date Released"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:73
+msgid "Media Type"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:75
+msgid "Play Count"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:154
+msgid "is"
+msgstr "adalah"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:156
+msgid "is exactly"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:158
+msgid "is not"
+msgstr "bukanlah"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:160
+msgid "is at least"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:162
+msgid "is at most"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:164
+msgid "is within"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:166
+msgid "is before"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:168
+msgid "contains"
+msgstr "mengandungi"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:170
+msgid "does not contain"
+msgstr "tidak mengandungi"
+
+#: /home/scott/beat-box/po/../plugins//Store/Widgets/StoreView.vala:184
+msgid "Music Store"
+msgstr "Kedai Muzik"
+
+#: /home/scott/beat-box/po/../plugins//Store/Widgets/AlbumView.vala:344
+#, c-format
+msgid "%s  by  %s"
+msgstr ""
+
+#~ msgid "Set Music Folder"
+#~ msgstr "Tetapkan Folder Muzik"
+
+#, c-format
+#~ msgid "Set Music Folder?"
+#~ msgstr "Tetapkan Folder Muzik?"
+
+#~ msgid "audiobooks"
+#~ msgstr "buku audio"
+
+#~ msgid "songs"
+#~ msgstr "lagu"
+
+#~ msgid "podcasts"
+#~ msgstr "podcast"
+
+#~ msgid "items"
+#~ msgstr "item"
+
+#~ msgid "stations"
+#~ msgstr "stesen"
+
+#~ msgid ""
+#~ "The provided source is invalid. Make sure you are entering an RSS feed in "
+#~ "XML format."
+#~ msgstr ""
+#~ "Sumber yang disediakan tidak sah. Pastikan anda masukkan suapan RSS dalam "
+#~ "format XML."
+
+#~ msgid "Add Playlist"
+#~ msgstr "Tambah Senarai Main"
+
+#~ msgid "Hide"
+#~ msgstr "Sembunyi"
+
+#~ msgid "Show"
+#~ msgstr "Papar"
+
+#, c-format
+#~ msgid "%s minutes"
+#~ msgstr "%s minit"
+
+#, c-format
+#~ msgid "%s hours"
+#~ msgstr "%s jam"
+
+#, c-format
+#~ msgid "%s days"
+#~ msgstr "%s hari"
+
+#, c-format
+#~ msgid "%i MB"
+#~ msgstr "%i MB"
+
+#, c-format
+#~ msgid "%.2f GB"
+#~ msgstr "%.2f GB"
+
+#~ msgid "Rescan Music Folder"
+#~ msgstr "Imbas Semula Folder Muzik"
+
+#~ msgid "Similar"
+#~ msgstr "Seakan"
+
+#~ msgid "Import Music"
+#~ msgstr "Import Muzik"
+
+#~ msgid "Rescanning music folder for changes"
+#~ msgstr "Mengimbas semula folder muzik untuk perubahan"
+
+#~ msgid "Please make sure that your music folder is accessible and mounted."
+#~ msgstr "Sila pastikan folder muzik anda boleh dicapai dan dilekap."
+
+#~ msgid "BeatBox has imported your library."
+#~ msgstr "BeatBox telah mengimport pustaka anda."
+
+#~ msgid "New Smart Playlist"
+#~ msgstr "Senarai Main Pintar Baru"
+
+#~ msgid "Similar Media"
+#~ msgstr "Media Serupa"
+
+#~ msgid "media"
+#~ msgstr "media"

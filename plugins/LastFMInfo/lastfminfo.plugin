@@ -1,0 +1,8 @@
+[Plugin]
+Module=lastfminfo
+IAge=2
+Name=Last.FM Info Source
+Description=Fetches track, album, and artist information from Last.fm
+Authors=Scott Ringwelski
+Copyright=Copyright © 2012 Scott Ringwelski
+Website=http://launchpad.net/beat-box

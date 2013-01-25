@@ -1,0 +1,6 @@
+#add_subdirectory(Store)
+add_subdirectory(LastFMInfo)
+add_subdirectory(AZLyrics)
+#if (${GUPNP_FOUND})
+#add_subdirectory (UPnP)
+#endif()

@@ -1,0 +1,2261 @@
+# Spanish translation for beat-box
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the beat-box package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: beat-box\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-28 11:18-0400\n"
+"PO-Revision-Date: 2013-01-11 14:15+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2013-01-12 05:09+0000\n"
+"X-Generator: Launchpad (build 16420)\n"
+"Language: es\n"
+
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:321
+msgid "Resolve"
+msgstr "Resolver"
+
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:766
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:340
+msgid "Import Complete"
+msgstr "Importación completa"
+
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:766
+#, c-format
+msgid "BeatBox has imported your %s library."
+msgstr "BeatBox ha importado su colección de %s."
+
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:859
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:866
+#, c-format
+msgid "%s media files could not be found."
+msgstr "No se encontraron %s archivos multimedia."
+
+#: /home/scott/beat-box/po/../src//Core/FileOperator.vala:459
+#, c-format
+msgid "Copying files to %s Folder..."
+msgstr "Copiando archivos a la carpeta %s…"
+
+#: /home/scott/beat-box/po/../src//Core/FileOperator.vala:479
+#, c-format
+msgid "Copying %s to %s Folder"
+msgstr "Copiando %s a la carpeta %s"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:36
+msgid "Cancelling remaining downloads..."
+msgstr "Cancelando las descargas restantes…"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:37
+msgid "Fetching new podcast episodes"
+msgstr "Obteniendo los episodios de podcast nuevos"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:38
+#, c-format
+msgid "Searching for new %s podcast episodes..."
+msgstr "Buscando episodios nuevos del podcast %s…"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:39
+#, c-format
+msgid "Fetching podcast from %s"
+msgstr "Obteniendo el podcast desde %s"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:40
+#, c-format
+msgid "Downloading %s (%d of %d)"
+msgstr "Descargando %s (%d de %d)"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:48
+msgid "Downloading new Podcasts"
+msgstr "Descargando podcasts nuevos"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:138
+msgid "Parsing new Podcast RSS"
+msgstr "Analizando el canal RSS de podcast nuevo"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:339
+msgid "Downloading Podcast Episodes"
+msgstr "Descargando episodios del podcast"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:349
+msgid "Downloading Podcast Episodes..."
+msgstr "Descargando episodios de podcast…"
+
+#: /home/scott/beat-box/po/../src//Core/PlaylistManager.vala:179
+msgid "Adding playlist to Library"
+msgstr "Añadiendo lista de reproducción a la colección"
+
+#: /home/scott/beat-box/po/../src//Core/PlaylistManager.vala:199
+#, c-format
+msgid "Importing %s to Library..."
+msgstr "Importando %s a la colección…"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:41
+msgid "Create Playlist"
+msgstr "Crear lista de reproducción"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:41
+msgid "Create a new Playlist"
+msgstr "Crear una lista de reproducción nueva"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:42
+msgid "Create Smart Playlist"
+msgstr "Crear lista inteligente"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:42
+msgid "Create a new Smart Playlist"
+msgstr "Crear una lista inteligente nueva"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:43
+msgid "Import Playlist"
+msgstr "Importar lista de reproducción"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:43
+msgid "Import playlist from file"
+msgstr "Importar lista de reproducción desde archivo"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:44
+msgid "Import Station"
+msgstr "Importar estación"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:44
+msgid "Import station from file"
+msgstr "Importar estación desde archivo"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:45
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:51
+msgid "Add RSS Feed"
+msgstr "Añadir canal RSS"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:45
+msgid "Add a new RSS Podcast Feed to your library"
+msgstr "Añadir un canal RSS de porcast nuevo a su colección"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:46
+msgid "Download new Episodes"
+msgstr "Descargar episodios nuevos"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:46
+msgid "Download new Podcast Episodes"
+msgstr "Descargar episodios de podcast nuevos"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:47
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:60
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:54
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:48
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:61
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:80
+msgid "Equalizer"
+msgstr "Ecualizador"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:49
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:59
+msgid "Next"
+msgstr "Siguiente"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:50
+msgid "Play/Pause"
+msgstr "Reproducir/Pausar"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:51
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:57
+msgid "Previous"
+msgstr "Anterior"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:52
+msgid "Ban"
+msgstr "Vetar"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:52
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:53
+msgid "Love"
+msgstr "Favorito"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:54
+msgid "Show Duplicates"
+msgstr "Mostrar duplicados"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:55
+msgid "Hide Duplicates"
+msgstr "Ocultar duplicados"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:56
+msgid "Exit"
+msgstr "Salir"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:129
+#, c-format
+msgid "Choose %s Folder"
+msgstr "Seleccionar carpeta de %s"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:147
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:299
+#, c-format
+msgid "Import %s"
+msgstr "Importar %s"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:175
+msgid "Import Failed"
+msgstr "Falló la importación"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:175
+#, c-format
+msgid ""
+"Your library's %s folder could not be found. Please make sure your %s folder "
+"is mounted before importing."
+msgstr ""
+"No se pudo encontrar la carpeta de %s de su colección. Asegúrese de que su "
+"carpeta de %s esté montada antes de importar."
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:179
+msgid "Doing Partial Import"
+msgstr "Realizando importación parcial"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:179
+#, c-format
+msgid ""
+"Some of the folders you selected to import are already in your %s Folder. "
+"Please rescan instead."
+msgstr ""
+"Algunas de las carpetas que seleccionó para importar ya están en su carpeta "
+"de %s. Reanalice en su lugar."
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:266
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:129
+msgid "Pause"
+msgstr "Pausar"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:270
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:58
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:129
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:190
+msgid "Play"
+msgid_plural "Plays"
+msgstr[0] "Reproducir"
+msgstr[1] "Reproducciones"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:335
+msgid "Invalid Playlist"
+msgstr "Lista de reproducción no válida"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:335
+msgid "Unrecognized playlist file. Import failed."
+msgstr ""
+"No se reconoció el archivo de lista de reproducción. Falló la importación."
+
+#: /home/scott/beat-box/po/../src//Media/Podcast.vala:77
+#: /home/scott/beat-box/po/../src//Media/Song.vala:57
+#: /home/scott/beat-box/po/../src//NowPlayingView/SongSummarySection.vala:326
+#: /home/scott/beat-box/po/../src//NowPlayingView/PodcastSummarySection.vala:290
+#: /home/scott/beat-box/po/../core//Media/Preview.vala:57
+#: /home/scott/beat-box/po/../plugins//Store/Widgets/AlbumView.vala:338
+msgid "Unknown Artist"
+msgstr "Artista desconocido"
+
+#: /home/scott/beat-box/po/../src//Media/Podcast.vala:77
+#: /home/scott/beat-box/po/../src//Media/Station.vala:77
+#: /home/scott/beat-box/po/../src//Media/Song.vala:57
+#: /home/scott/beat-box/po/../core//Media/Preview.vala:57
+msgid " by "
+msgstr " por "
+
+#: /home/scott/beat-box/po/../src//Media/Podcast.vala:78
+#: /home/scott/beat-box/po/../src//Media/Song.vala:58
+#: /home/scott/beat-box/po/../src//NowPlayingView/SongSummarySection.vala:327
+#: /home/scott/beat-box/po/../src//NowPlayingView/PodcastSummarySection.vala:291
+#: /home/scott/beat-box/po/../src//NowPlayingView/PodcastSummarySection.vala:299
+#: /home/scott/beat-box/po/../core//Media/Preview.vala:58
+msgid "Unknown Album"
+msgstr "Álbum desconocido"
+
+#: /home/scott/beat-box/po/../src//Media/Podcast.vala:78
+#: /home/scott/beat-box/po/../src//Media/Station.vala:78
+#: /home/scott/beat-box/po/../src//Media/Song.vala:58
+#: /home/scott/beat-box/po/../core//Media/Preview.vala:58
+msgid " on "
+msgstr " en "
+
+#: /home/scott/beat-box/po/../src//Media/Station.vala:76
+msgid "Unknown Song"
+msgstr "Canción desconocida"
+
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:45
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:51
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:51
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:57
+msgid "Library Management"
+msgstr "Gestión de la colección"
+
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:46
+msgid "Keep media folders organized"
+msgstr "Mantener organizadas las carpetas de medios"
+
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:47
+msgid "Write metadata to file"
+msgstr "Escribir metadatos en el archivo"
+
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:48
+msgid "Copy files to library folder when imported"
+msgstr "Copiar archivos a la carpeta de la colección al importar"
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:52
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:53
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:56
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:60
+msgid "Authentication"
+msgstr "Autenticación"
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:73
+msgid "Username:"
+msgstr "Nombre de usuario:"
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:74
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:161
+#, c-format
+msgid "You are logged in as %s."
+msgstr "Ha iniciado sesión como %s."
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:169
+#, c-format
+msgid "BeatBox was unable to log in as %s. Please try again."
+msgstr "BeatBox no pudo iniciar sesión como %s. Inténtelo de nuevo."
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:46
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:56
+msgid "Podcast Library Location"
+msgstr "Ubicación de la colección de podcasts"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:47
+msgid "Podcast Folder"
+msgstr "Carpeta de podcasts"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:48
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:47
+msgid "Import..."
+msgstr "Importar…"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:49
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:48
+msgid "Rescan"
+msgstr "Reanalizar"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:52
+msgid "Automatically download new podcast episodes"
+msgstr "Descargar automáticamente episodios nuevos de podcast"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:109
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:95
+msgid "Could not find Music Folder"
+msgstr "No se encontró la carpeta de música"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:109
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:95
+msgid "Please make sure that your Music folder is accessible and mounted."
+msgstr "Asegúrese de que su carpeta de música esté accesible y montada."
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:125
+msgid ""
+"Please wait until all operations finish before setting your podcast folder."
+msgstr ""
+"Espere a que todas las operaciones finalicen antes de establecer su carpeta "
+"de podcasts."
+
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:45
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:51
+msgid "Music Library Location"
+msgstr "Ubicación de la colección de música"
+
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:46
+msgid "Music Folder"
+msgstr "Carpeta de música"
+
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:111
+msgid ""
+"Please wait until all operations finish before setting your music folder."
+msgstr ""
+"Espere a que todas las operaciones finalicen antes de establecer su carpeta "
+"de música."
+
+#: /home/scott/beat-box/po/../src//SourceViews/SourceView.vala:280
+msgid "No Results"
+msgstr "No hay resultados"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SourceView.vala:280
+msgid "Your search query returned no results."
+msgstr "Su consulta no devolvió ningún resultado."
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:45
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:46
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:37
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:120
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:67
+msgid "song"
+msgid_plural "songs"
+msgstr[0] "canción"
+msgstr[1] "canciones"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:54
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:46
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:46
+msgid "Save as Playlist"
+msgstr "Guardar como lista de reproducción"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:55
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:47
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:62
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:61
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:47
+msgid "Export..."
+msgstr "Exportar…"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:113
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:220
+#, c-format
+msgid "Similar to %s"
+msgstr "Similar a %s"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:147
+#, c-format
+msgid "BeatBox is finding songs similar to <b>%s</b> by <b>%s</b>"
+msgstr "BeatBox está buscando canciones similares a <b>%s</b> por <b>%s</b>"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:148
+msgid "Fetching similar songs"
+msgstr "Obteniendo canciones similares"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:156
+#, c-format
+msgid "BeatBox could not find songs similar to <b>%s</b> by <b>%s</b>. "
+msgstr ""
+"BeatBox no pudo encontrar canciones similares a <b>%s</b> por <b>%s</b>. "
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:157
+msgid ""
+"Make sure all song info is correct and you are connected to the Internet. "
+"Some songs may not have matches."
+msgstr ""
+"Asegúrese de que toda la información de la canción es correcta y está "
+"conectado a Internet. Algunas canciones no tienen coincidencias."
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:158
+msgid "No similar songs found"
+msgstr "No se encontraron canciones similares"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:187
+msgid "Similar Songs"
+msgstr "Canciones similares"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:220
+msgid "Similar list"
+msgstr "Lista de similares"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:46
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:39
+#: /home/scott/beat-box/po/../src//SourceViews/DefaultSourceView.vala:38
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:49
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:48
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:39
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:132
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:80
+msgid "item"
+msgid_plural "items"
+msgstr[0] "elemento"
+msgstr[1] "elementos"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:51
+msgid "Remove Checked Items"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:53
+msgid "Manually select duplicates"
+msgstr "Seleccionar duplicados manualmente"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:54
+msgid "Keep highest bitrate"
+msgstr "Mantener la tasa de bits más alta"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:55
+msgid "Keep largest file"
+msgstr "Mantener el archivo de mayor tamaño"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:85
+msgid "Victory! No Duplicates!"
+msgstr "¡Victoria! ¡Sin duplicados!"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:85
+msgid "Your library has no duplicates."
+msgstr "Su colección no tiene duplicados."
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:186
+msgid "Duplicates"
+msgstr "Duplicados"
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:67
+msgid "No songs in History"
+msgstr "No hay canciones en el histórico"
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:67
+msgid ""
+"After a part of a song has been played, it is added to the history list."
+msgstr ""
+"Después de que se ha reproducido una parte de la canción, se añade a la "
+"lista del histórico."
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:68
+msgid ""
+"You can use this list to see all the songs you have played during the "
+"current session."
+msgstr ""
+"Puede utilizar esta lista para ver todas las canciones que ha reproducido "
+"durante la sesión actual."
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:91
+msgid "History"
+msgstr "Histórico"
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:112
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:126
+msgid " play history"
+msgstr " histórico de reproducción"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DefaultSourceView.vala:56
+msgid "No Media Found"
+msgstr "No se encontraron medios"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DefaultSourceView.vala:56
+msgid "There is no media here."
+msgstr "No hay medios aquí."
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:40
+msgid "podcast"
+msgstr "podcast"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:43
+msgid "Subscribe to Podcasts"
+msgstr "Suscríbase a podcasts"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:43
+msgid "No Podcasts were found."
+msgstr "No se encontraron podcasts."
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:46
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:45
+msgid "Search"
+msgstr "Buscar"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:46
+msgid "Find RSS feeds online."
+msgstr "Buscar canales RSS en línea."
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:74
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:81
+msgid "No Podcasts Found"
+msgstr "No se encontraron podcasts"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:74
+msgid ""
+"To add a podcast, visit a website such as Miro Guide to find RSS Feeds."
+msgstr ""
+"Para añadir un podcast, visite un sitio web como Miro Guide para encontrar "
+"canales RSS."
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:75
+msgid ""
+"You can then copy and paste the feed into the \"Add Podcast\" window by "
+"right clicking on \"Podcasts\"."
+msgstr ""
+"Luego podrá copiar y pegar el canal en la ventana «Añadir podcast» pulsando "
+"con el botón derecho del ratón sobre «Podcasts»."
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:115
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:174
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:91
+#: /home/scott/beat-box/po/../src//Libraries/PodcastLibrary.vala:36
+msgid "Podcasts"
+msgstr "Podcasts"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:55
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:216
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:155
+msgid "Import to Library"
+msgstr "Importar a la colección"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:56
+msgid "Eject"
+msgstr "Expulsar"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:81
+msgid ""
+"This device supports podcasts. To sync podcasts with this device, edit the "
+"device's preferences."
+msgstr ""
+"Este dispositivo es compatible con podcasts. Para sincronizar podcasts con "
+"este dispositivo, edite las preferencias del dispositivo."
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:86
+msgid "No Music Found"
+msgstr "No se encontró música"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:86
+msgid "To sync music with this device, edit the device's preferences."
+msgstr ""
+"Para sincronizar música con este dispositivo, edite las preferencias del "
+"dispositivo."
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:94
+msgid "Audio CD Invalid"
+msgstr "CD de audio no válido"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:94
+msgid "BeatBox could not read the contents of this Audio CD."
+msgstr "BeatBox no pudo leer el contenido de este CD de audio."
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:172
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:183
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:90
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:36
+msgid "Music"
+msgstr "Música"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:176
+msgid "Audiobooks"
+msgstr "Audiolibros"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:60
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:59
+msgid "Edit"
+msgstr "Editar"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:61
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:60
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:346
+msgid "Remove"
+msgstr "Eliminar"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:134
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:83
+msgid "No Media"
+msgstr "No hay medios"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:134
+msgid ""
+"No media fits this smart playlist's rules. To edit its rules, right click on "
+"it in the sidebar and choose \"Edit\"."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:39
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:129
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:76
+msgid "station"
+msgid_plural "stations"
+msgstr[0] "estación"
+msgstr[1] "estaciones"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:42
+msgid "Turn up the Radio"
+msgstr "Encienda la radio"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:42
+msgid "No Stations were found."
+msgstr "No se encontraron estaciones."
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:45
+msgid "Find radio stations online."
+msgstr "Buscar estaciones de radio en línea."
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:72
+msgid "No Internet Radio Stations Found"
+msgstr "No se encontraron estaciones de radio en línea"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:72
+msgid ""
+"To add a station, visit a website such as SomaFM to find PLS or M3U files."
+msgstr ""
+"Para añadir una estación, visite un sitio web como SomaFM para encontrar "
+"archivos PLS o M3U."
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:73
+msgid "You can then import the file to add the station."
+msgstr "Luego podrá importar el archivo para añadir la estación."
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:113
+msgid "Internet Radio"
+msgstr "Radio en Internet"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:83
+msgid ""
+"To add to this playlist, drag and drop songs from a list onto the sidebar "
+"item or\n"
+"right click on an item and choose \"Add to Playlist\"."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:67
+msgid "No songs in Queue"
+msgstr "No hay canciones en la cola"
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:67
+msgid ""
+"To queue a song, drag and drop a song from a list onto the queue sidebar "
+"item."
+msgstr ""
+"Para encolar una canción, arrástrela desde una lista y suéltela en el "
+"elemento «Cola» de la barra lateral."
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:68
+msgid ""
+"When a song finishes, the queued songs will be played first before the next "
+"song in the currently playing list."
+msgstr ""
+"Cuando termina una canción, las canciones en cola se reproducen antes de la "
+"siguiente canción de la lista de reproducción actual."
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:90
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:212
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:150
+msgid "Queue"
+msgstr "Cola"
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:125
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:139
+msgid " play queue"
+msgstr " cola de reproducción"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:40
+msgid "Get Some Tunes"
+msgstr "Consiga algo de música"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:40
+msgid "BeatBox can't find your music."
+msgstr "BeatBox no puede encontrar su música."
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:43
+msgid "Locate"
+msgstr "Encontrar"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:43
+msgid "Change your music folder."
+msgstr "Cambiar la carpeta de música."
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:78
+msgid "Import songs from audio CD"
+msgstr "Importar canciones desde un CD de audio"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:78
+msgid "Import media from device"
+msgstr "Importar contenido desde un dispositivo"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:150
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:100
+msgid "No External Songs"
+msgstr "No hay canciones externas"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:150
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:100
+msgid ""
+"There were no songs found on this device that are not in your library."
+msgstr ""
+"No se encontraron canciones en este dispositivo que no estuviesen en su "
+"colección."
+
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:73
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:59
+msgid "Import from Device"
+msgstr "Importar desde un dispositivo"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:74
+#: /home/scott/beat-box/po/../src//Widgets/SpaceWidget.vala:207
+msgid "Sync"
+msgstr "Sincronizar"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:75
+msgid "Unmount"
+msgstr "Desmontar"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:91
+msgid "Library"
+msgstr "Colección"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:92
+msgid "Devices"
+msgstr "Dispositivos"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:93
+msgid "Network"
+msgstr "Red"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:94
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:101
+msgid "Plugins"
+msgstr "Complementos"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:95
+msgid "Playlists"
+msgstr "Listas de reproducción"
+
+#: /home/scott/beat-box/po/../src//Views/PopupListView.vala:197
+#, c-format
+msgid "%s by %s"
+msgstr "%s por %s"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:64
+msgid "Device Name"
+msgstr "Nombre del dispositivo"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:82
+msgid "Device Name:"
+msgstr "Nombre del dispositivo:"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:83
+msgid "Automatically sync when plugged in:"
+msgstr "Sincronizar automáticamente al conectar:"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:84
+msgid "Sync:"
+msgstr "Sincronizar:"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:93
+msgid "Other"
+msgstr "Otros"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:336
+msgid "All Music"
+msgstr "Toda la música"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:338
+msgid "All Podcasts"
+msgstr "Todos los podcasts"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:428
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:455
+msgid "Sync Failed"
+msgstr "Falló la sincronización"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:428
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:455
+#, c-format
+msgid ""
+"The playlist named %s is used to sync device %s, but could not be found."
+msgstr ""
+"La lista de reproducción %s suele sincronizarse con el dispositivo %s, pero "
+"no se puedo encontrar."
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:501
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:504
+msgid "Cannot Sync"
+msgstr "No se puede sincronizar"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:501
+msgid ""
+"Cannot sync device with selected sync settings. Not enough space on disk"
+msgstr ""
+"No se puede sincronizar el dispositivo con los ajustes dados. No hay espacio "
+"suficiente en el dispositivo."
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:504
+msgid "Device is already being synced."
+msgstr "El dispositivo ya se está sincronizando."
+
+#: /home/scott/beat-box/po/../src//Libraries/StationLibrary.vala:36
+msgid "Stations"
+msgstr "Estaciones"
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:149
+#, c-format
+msgid "Setting %s Folder"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:163
+#, c-format
+msgid "Importing %s from %s..."
+msgstr "Importando %s desde %s…"
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:187
+#, c-format
+msgid "Adding files to %s Library"
+msgstr "Añadiendo archivos a la colección de %s"
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:199
+#, c-format
+msgid "Adding files to %s library..."
+msgstr "Añadiendo archivos a la colección de %s…"
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:214
+#, c-format
+msgid "Add folders to %s Library"
+msgstr "Añadir carpetas a la colección de %s"
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:228
+#, c-format
+msgid "Adding media from %s to %s library..."
+msgstr "Añadiendo medios desde %s a la colección de %s…"
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:231
+#, c-format
+msgid "Adding media from %s folders to %s library..."
+msgstr "Añadiendo medios desde las carpetas de %s a la colección de %s…"
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:253
+#, c-format
+msgid "Rescanning %s Folder"
+msgstr "Reanalizando la carpeta %s"
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:264
+#, c-format
+msgid "Rescanning %s folder for changes..."
+msgstr "Reanalizando la carpeta %s en busca de cambios…"
+
+#: /home/scott/beat-box/po/../src//Libraries/PodcastLibrary.vala:450
+msgid "Unheard Podcasts"
+msgstr "Podcasts no escuchados"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:483
+msgid "Favorite Songs"
+msgstr "Canciones favoritas"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:492
+msgid "Recently Added"
+msgstr "Añadidas recientemente"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:500
+msgid "Recently Played"
+msgstr "Reproducidas recientemente"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:508
+msgid "Recent Favorites"
+msgstr "Favoritas recientes"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:518
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:173
+msgid "Never Played"
+msgstr "Nunca reproducida"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:527
+msgid "Over Played"
+msgstr "Más reproducidas"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:536
+msgid "Not Recently Played"
+msgstr "No reproducidas recientemente"
+
+#: /home/scott/beat-box/po/../src//NowPlayingView/SongArtistSection.vala:89
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:164
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:139
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:103
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:56
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:53
+msgid "Artist"
+msgstr "Artista"
+
+#: /home/scott/beat-box/po/../src//NowPlayingView/SongArtistSection.vala:135
+#, c-format
+msgid "Top Tracks"
+msgstr "Mejores pistas"
+
+#: /home/scott/beat-box/po/../src//config.vala:18
+#: /home/scott/beat-box/po/../core//config.vala:18
+msgid "Listen to music, podcasts and stations"
+msgstr "Escuchar música, podcasts y estaciones de radio"
+
+#: /home/scott/beat-box/po/../src//config.vala:19
+#: /home/scott/beat-box/po/../core//config.vala:19
+msgid "Audio Player"
+msgstr "Reproductor de audio"
+
+#: /home/scott/beat-box/po/../src//config.vala:20
+#: /home/scott/beat-box/po/../core//config.vala:20
+msgid "BeatBox Audio Player"
+msgstr "Reproductor de audio BeatBox"
+
+#: /home/scott/beat-box/po/../src//Devices/AndroidDevice.vala:64
+msgid "No Description"
+msgstr "Sin descripción"
+
+#: /home/scott/beat-box/po/../src//Devices/AndroidDevice.vala:92
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:130
+msgid "Unknown capacity"
+msgstr "Capacidad desconocida"
+
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:98
+msgid "Multimedia Disc"
+msgstr "Disco multimedia"
+
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:213
+#, c-format
+msgid "Ripping from %s"
+msgstr "Extrayendo desde %s"
+
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:270
+#, c-format
+msgid "CD Import cancelled. Finishing ripping track %s..."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:340
+#, c-format
+msgid "BeatBox has finished importing %d song(s) from Audio CD"
+msgstr "BeatBox ha terminado de importar %d canción(es) del CD de audio"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:208
+msgid "Unknown Capacity"
+msgstr "Capacidad desconocida"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:282
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:465
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:597
+#, c-format
+msgid "Syncing %s"
+msgstr "Sincronizando %s"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:292
+msgid "Syncing "
+msgstr "Sincronizando "
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:307
+msgid "Removing old medias from iPod and updating current ones"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:357
+msgid "Adding new media to iPod..."
+msgstr "Añadiendo medios nuevos al iPod…"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:393
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:497
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:644
+msgid "Cancelling Sync..."
+msgstr "Cancelando la sincronización…"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:393
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:497
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:644
+msgid "Finishing sync process..."
+msgstr "Finalizando el proceso de sincronización…"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:475
+msgid "Syncing"
+msgstr "Sincronizando"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:533
+msgid "Adding"
+msgstr "Añadiendo"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:534
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:673
+msgid "by"
+msgstr "por"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:535
+msgid "to"
+msgstr "a"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:607
+msgid "Removing from "
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:672
+msgid "Removing"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:674
+msgid "from"
+msgstr "de"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:739
+msgid "Syncing playlists"
+msgstr "Sincronizando listas de reproducción"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:792
+#, c-format
+msgid "Transferring from %s"
+msgstr "Transfiriendo desde %s"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:803
+#, c-format
+msgid "Importing %s items to library..."
+msgstr "Importando %s elementos a la colección…"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:822
+msgid "Importing"
+msgstr "Importando"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:822
+msgid "to library"
+msgstr "a la colección"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:68
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:98
+msgid "Remove Station"
+msgstr "Eliminar estación"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:82
+#: /home/scott/beat-box/po/../src//Windows/Editors/StationEditor.vala:62
+#: /home/scott/beat-box/po/../core//Media/Media.vala:46
+msgid "Station"
+msgid_plural "Stations"
+msgstr[0] "Estación"
+msgstr[1] "Estaciones"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:83
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:166
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:141
+#: /home/scott/beat-box/po/../src//Windows/Editors/StationEditor.vala:63
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:74
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:106
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:65
+msgid "Genre"
+msgstr "Género"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:84
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:169
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:144
+#: /home/scott/beat-box/po/../src//Windows/Editors/StationEditor.vala:64
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:77
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:113
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:77
+msgid "Rating"
+msgstr "Valoración"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:97
+msgid "Edit Station"
+msgstr "Editar estación"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:203
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:415
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:351
+#, c-format
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:101
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:88
+msgid "Remove from Library"
+msgstr "Quitar de la colección"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:112
+msgid "Remove from Queue"
+msgstr "Quitar de la cola"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:131
+msgid "Remove from Device"
+msgstr "Quitar del dispositivo"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:160
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:135
+msgid "#"
+msgstr "N.º"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:161
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:136
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:76
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:110
+msgid "Track"
+msgstr "Pista"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:162
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:137
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:71
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:102
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:81
+msgid "Title"
+msgstr "Título"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:163
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:138
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:71
+msgid "Length"
+msgstr "Duración"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:165
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:140
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:105
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:55
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:51
+msgid "Album"
+msgstr "Álbum"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:167
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:142
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:112
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:83
+msgid "Year"
+msgstr "Año"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:168
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:143
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:55
+msgid "Bitrate"
+msgstr "Tasa de bits"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:170
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:145
+msgid "Plays"
+msgstr "Reproducciones"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:171
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:146
+msgid "Skips"
+msgstr "Omisiones"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:172
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:147
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:61
+msgid "Date Added"
+msgstr "Fecha de adición"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:173
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:148
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:69
+msgid "Last Played"
+msgstr "Última reproducción"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:174
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:149
+msgid "BPM"
+msgstr "PPM"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:210
+msgid "Edit Song Info"
+msgstr "Editar información de la canción"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:211
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:187
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:149
+msgid "Show in File Browser"
+msgstr "Mostrar en el explorador de archivos"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:213
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:151
+#: /home/scott/beat-box/po/../core//Playlists/StaticPlaylist.vala:39
+msgid "New Playlist"
+msgstr "Lista de reproducción nueva"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:214
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:152
+msgid "Add to Playlist"
+msgstr "Añadir a la lista de reproducción"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:215
+msgid "Remove Song"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:217
+msgid "Scroll to Current Song"
+msgstr "Saltar hacia la canción actual"
+
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:185
+msgid "Check"
+msgstr "Marcar"
+
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:186
+msgid "Uncheck"
+msgstr "Desmarcar"
+
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:188
+msgid "Remove Media"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Lists/GenericList.vala:277
+msgid "Playing not Supported"
+msgstr "La reproducción no es compatible"
+
+#: /home/scott/beat-box/po/../src//Lists/GenericList.vala:277
+msgid ""
+"Due to issues with playing songs on certain iOS devices, playing songs on "
+"devices is currently not supported."
+msgstr ""
+"Debido a problemas con la reproducción de canciones en ciertos dispositivos "
+"iOS, la reproducción desde los dispositivos actualmente no se admite."
+
+#: /home/scott/beat-box/po/../src//Lists/GenericList.vala:454
+msgid "Media Editor"
+msgstr "Editor de medios"
+
+#: /home/scott/beat-box/po/../src//Lists/GenericList.vala:454
+msgid "Editing of multiple media types is not allowed"
+msgstr "No se permite la edición de múltiples tipos de medios"
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:148
+msgid "Edit Podcast"
+msgstr "Editar podcast"
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:153
+msgid "Remove Episode"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:154
+msgid "Download"
+msgstr "Descargar"
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:478
+msgid "Stopping File Browse"
+msgstr "Deteniendo la búsqueda de archivos"
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:478
+msgid ""
+"Too many medias have already been opened in File Browser. Stopping any more "
+"openings."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:86
+#: /home/scott/beat-box/po/../src//Windows/PlaylistNameWindow.vala:63
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:149
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:94
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:156
+msgid "Done"
+msgstr "Hecho"
+
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:99
+msgid "General"
+msgstr "General"
+
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:100
+msgid "Libraries"
+msgstr "Colecciones"
+
+#: /home/scott/beat-box/po/../src//Windows/PlaylistNameWindow.vala:61
+#: /home/scott/beat-box/po/../src//Windows/PlaylistNameWindow.vala:68
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:74
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:82
+#, c-format
+msgid "Name of Playlist"
+msgstr "Nombre de la lista de reproducción"
+
+#: /home/scott/beat-box/po/../src//Windows/PlaylistNameWindow.vala:64
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:81
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:69
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:95
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:157
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:76
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:84
+#, c-format
+msgid "Podcast RSS Source"
+msgstr "Canal RSS del podcast"
+
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:77
+msgid "Podcast Source..."
+msgstr "Origen del podcast…"
+
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:80
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:134
+msgid "Add"
+msgstr "Añadir"
+
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:147
+msgid "Save preset"
+msgstr "Guardar preajuste"
+
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:396
+msgid "Custom Preset"
+msgstr "Preajuste personalizado"
+
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:401
+msgid "Custom"
+msgstr "Personalizado"
+
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:401
+msgid " Preset"
+msgstr " Preajuste"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:44
+#, c-format
+msgid "Analyzing %d of %d..."
+msgstr "Analizando %d de %d…"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:51
+msgid "Duplicates Remover"
+msgstr "Eliminador de duplicados"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:70
+msgid "Analyze..."
+msgstr "Analizar…"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:73
+msgid "Media must match by at least "
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:74
+msgid " percent."
+msgstr " por ciento."
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:93
+msgid "Matching Criteria"
+msgstr "Criterios de coincidencia"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:94
+msgid "Title and Artist"
+msgstr "Título y artista"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:95
+msgid "Title, Artist, and Album"
+msgstr "Título, artista y álbum"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:84
+msgid "Metadata"
+msgstr "Metadatos"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:119
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:227
+#, c-format
+msgid "Editing %s"
+msgstr "Editando %s"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:122
+#, c-format
+msgid "Editing %d medias"
+msgstr "Editando %d medios"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:134
+msgid "Info"
+msgstr "Información"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:62
+msgid "Smart Playlist Editor"
+msgstr "Editor de listas inteligentes"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:75
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:83
+#, c-format
+msgid "Rules"
+msgstr "Reglas"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:76
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:84
+#, c-format
+msgid "Options"
+msgstr "Opciones"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:87
+msgid "Playlist Title"
+msgstr "Título de la lista de reproducción"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:93
+msgid "Match"
+msgstr "Coincide con"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:95
+msgid "any"
+msgstr "cualquiera"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:96
+msgid "all"
+msgstr "todo"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:97
+msgid "of the following:"
+msgstr "de los siguientes:"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:140
+msgid "Limit to"
+msgstr "Limitar a"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:142
+msgid "medias"
+msgstr "contenido"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:483
+msgid "seconds"
+msgstr "segundos"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:487
+msgid "days ago"
+msgstr "dias atrás"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:491
+msgid "kbps"
+msgstr "kbps"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:64
+msgid "Location:"
+msgstr "Ubicación:"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:65
+msgid "File Size:"
+msgstr "Tamaño del archivo:"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:66
+msgid "Date Added:"
+msgstr "Añadida el:"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:67
+msgid "Last Played:"
+msgstr "Última reproducción:"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:68
+msgid "Last Modified:"
+msgstr "Última modificación:"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:69
+msgid "Play Count:"
+msgstr "Número de reproducciones:"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:70
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:79
+msgid "Skip Count"
+msgstr "Número de omisiones"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:71
+msgid "Duration:"
+msgstr "Duración:"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:72
+msgid "Audio Bitrate:"
+msgstr "Tasa de bits del audio:"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:73
+msgid "Sample Rate:"
+msgstr "Tasa de muestreo:"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:164
+msgid "Unknown Size"
+msgstr "Tamaño desconocido"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:180
+msgid "Never Modified"
+msgstr "Ninguna modificación"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:187
+msgid "No Plays"
+msgstr "Ninguna reproducción"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:194
+msgid "No Skips"
+msgstr "Ninguna omisión"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:197
+msgid "Skip"
+msgid_plural "Skips"
+msgstr[0] "Omisión"
+msgstr[1] "Omisiones"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:203
+msgid "Unknown Bitrate"
+msgstr "Tasa de bits desconocida"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:206
+#, c-format
+msgid "%d kbps"
+msgstr "%d kbps"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:210
+msgid "Unknown Sample Rate"
+msgstr "Tasa de muestreo desconocida"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:213
+#, c-format
+msgid "%d Hz"
+msgstr "%d Hz"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:72
+msgid "Author"
+msgstr "Autor"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:73
+#: /home/scott/beat-box/po/../core//Media/Media.vala:42
+msgid "Podcast"
+msgid_plural "Podcasts"
+msgstr[0] "Podcast"
+msgstr[1] "Podcasts"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:75
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:109
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:57
+msgid "Comment"
+msgstr "Comentario"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:104
+msgid "Album Artist"
+msgstr "Artista del álbum"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:107
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:59
+msgid "Composer"
+msgstr "Compositor"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:108
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:67
+msgid "Grouping"
+msgstr "Agrupación"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:111
+msgid "Disc"
+msgstr "Disco"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:155
+msgid "Lyrics"
+msgstr "Letra"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:36
+#, c-format
+msgid "%s, %s, %s"
+msgstr "%s, %s, %s"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:53
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:60
+msgid "Off"
+msgstr "Desactivado"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:53
+msgid "Repeat Off"
+msgstr "Repetición desactivada"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:54
+#: /home/scott/beat-box/po/../core//Media/Media.vala:40
+msgid "Song"
+msgid_plural "Songs"
+msgstr[0] "Canción"
+msgstr[1] "Canciones"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:54
+msgid "Repeat Song"
+msgstr "Repetir canción"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:55
+msgid "Repeat Album"
+msgstr "Repetir álbum"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:56
+msgid "Repeat Artist"
+msgstr "Repetir artista"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:57
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:61
+msgid "All"
+msgstr "Todo"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:57
+msgid "Repeat All"
+msgstr "Repetir todo"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:60
+msgid "Shuffle Disabled"
+msgstr "Aleatorio desactivado"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:61
+msgid "Shuffle Enabled"
+msgstr "Aleatorio activado"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:107
+#, c-format
+msgid "%d minutes"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuto"
+msgstr[1] "%d minutos"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:110
+#, c-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d hora"
+msgstr[1] "%d horas"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:113
+#, c-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d día"
+msgstr[1] "%d días"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:123
+msgid "episode"
+msgid_plural "episodes"
+msgstr[0] "episodio"
+msgstr[1] "episodios"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:126
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:73
+msgid "audiobook"
+msgid_plural "audiobooks"
+msgstr[0] "audiolibro"
+msgstr[1] "audiolibros"
+
+#: /home/scott/beat-box/po/../src//Widgets/PresetList.vala:52
+msgid "Automatic"
+msgstr "Automático"
+
+#: /home/scott/beat-box/po/../src//Widgets/PresetList.vala:53
+msgid "Delete Current"
+msgstr "Eliminar actual"
+
+#: /home/scott/beat-box/po/../src//Widgets/AdvancedSearchBox.vala:39
+msgid "Search..."
+msgstr "Buscar…"
+
+#: /home/scott/beat-box/po/../src//Widgets/TopDisplay/BufferDisplay.vala:66
+#, c-format
+msgid "Buffering %s..."
+msgstr "Almacenando en búfer %s…"
+
+#: /home/scott/beat-box/po/../src//Widgets/TopDisplay/BufferDisplay.vala:69
+msgid "Buffering..."
+msgstr "Almacenando en búfer…"
+
+#: /home/scott/beat-box/po/../src//Widgets/SpaceWidget.vala:264
+msgid "Free"
+msgstr "Disponible"
+
+#: /home/scott/beat-box/po/../src//Widgets/SpaceWidget.vala:382
+msgid "Using %s of %s (%.0f%)"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:76
+msgid "Import medias from"
+msgstr "Importar archivos multimedia desde"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:77
+#, c-format
+msgid ""
+"The following files were found on %s, but are not in your library. Check all "
+"files you would like to import."
+msgstr ""
+"Se encontraron los siguientes archivos en %s, pero no están en su colección. "
+"Marque todos los archivos que quiera importar."
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:78
+msgid "Import all medias"
+msgstr "Importar todo el contenido"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:83
+msgid "Import"
+msgstr "Importar"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:84
+msgid "Don't Import"
+msgstr "No importar"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:89
+#, c-format
+msgid "Import %s from %s"
+msgstr "Importar %s desde %s"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:91
+#, c-format
+msgid "Import %d medias from %s"
+msgstr "Importar %d medios desde %s"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:172
+msgid "Select individual medias to import:"
+msgstr "Seleccione el contenido individual para importar:"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:190
+msgid "Check Item"
+msgstr "Comprobar elemento"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:191
+msgid "Check Album"
+msgstr "Comprobar álbum"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:192
+msgid "Check Artist"
+msgstr "Seleccionar artista"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:283
+msgid "Cannot Import"
+msgstr "No se puede importar"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:283
+msgid ""
+"BeatBox is already doing file operations. Please wait until those finish to "
+"import from "
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:59
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:76
+msgid "Move to Trash"
+msgstr "Mover a la papelera"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:60
+msgid "Remove from BeatBox"
+msgstr "Eliminar de Beatbox"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:70
+msgid "podcast episode"
+msgid_plural "podcast episodes"
+msgstr[0] "episodio de podcast"
+msgstr[1] "episodios de podcast"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:88
+#, c-format
+msgid "Remove %d %s from BeatBox?"
+msgstr "¿Eliminar %d %s de BeatBox?"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:94
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:96
+#, c-format
+msgid "Remove %s from BeatBox?"
+msgstr "¿Eliminar %s de BeatBox?"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:103
+#, c-format
+msgid ""
+"This will remove the %s from your library and from any device that "
+"automatically syncs with BeatBox."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:43
+#, c-format
+msgid "Sync will remove %d medias from %s"
+msgstr "La sincronización eliminará %d medios de %s"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:44
+#, c-format
+msgid ""
+"If you continue to sync, medias will be removed from %s since they are not "
+"on the sync list. Would you like to import them to your library first?"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:70
+msgid "Import medias to Library"
+msgstr "Importar medios a la colección"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:71
+msgid "Continue Syncing"
+msgstr "Continuar sincronización"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:72
+msgid "Dont Sync"
+msgstr "No sincronizar"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:70
+msgid "Export Playlists"
+msgstr "Exportar listas de reproducción"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:71
+#, c-format
+msgid "Set %s Folder"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:78
+#, c-format
+msgid "Set %s Folder?"
+msgstr "¿Establecer la carpeta de %s?"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:81
+#, c-format
+msgid ""
+"Are you sure you want to set the %s folder to %s? This will reset your %s "
+"library."
+msgstr ""
+"¿Está seguro de que quiere establecer la carpeta %s a %s? Esto restablecerá "
+"su colección de %s."
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:125
+msgid "Choose Music Folder"
+msgstr "Elija la carpeta de música"
+
+#: /home/scott/beat-box/po/../src//Dialogs/InstallGstreamerPluginsDialog.vala:64
+msgid "Install Plugin"
+msgstr "Instalar complemento"
+
+#: /home/scott/beat-box/po/../src//Dialogs/InstallGstreamerPluginsDialog.vala:65
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:87
+msgid "Do Nothing"
+msgstr "No hacer nada"
+
+#: /home/scott/beat-box/po/../src//Dialogs/InstallGstreamerPluginsDialog.vala:69
+#, c-format
+msgid "Required GStreamer plugin not installed"
+msgstr "El complemento de GStreamer requerido no está instalado"
+
+#: /home/scott/beat-box/po/../src//Dialogs/InstallGstreamerPluginsDialog.vala:72
+#, c-format
+msgid ""
+"The plugin for media type %s is not installed.\n"
+" What would you like to do?"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:70
+#, c-format
+msgid "BeatBox was unable to import %d medias. The files may be damaged."
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:71
+msgid "Move all corrupted files to trash"
+msgstr "Mover todos los archivos dañados a la papelera"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:77
+msgid "Ignore"
+msgstr "Ignorar"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:81
+#, c-format
+msgid "Unable to import %d medias from %s"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:106
+msgid "File Location"
+msgstr "Ubicación del archivo"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:133
+msgid "Select individual files to move to trash:"
+msgstr "Seleccione los archivos a mover a la papelera:"
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:84
+#, c-format
+msgid "Remove %s"
+msgstr "Eliminar %s"
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:85
+#, c-format
+msgid "Rescan %s Library"
+msgstr "Reanalizar la colección de %s"
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:86
+#, c-format
+msgid "Locate %s"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:91
+#, c-format
+msgid "Could not find %s %s"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:91
+msgid "file"
+msgid_plural "files"
+msgstr[0] "archivo"
+msgstr[1] "archivos"
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:95
+#, c-format
+msgid "The file for %s by %s could not be found. What would you like to do?"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:97
+#, c-format
+msgid "%s files could not be found. What would you like to do?"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:121
+#, c-format
+msgid "%s not found:"
+msgstr "%s no encontrado:"
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:177
+msgid "Locate Music File"
+msgstr ""
+
+#: /home/scott/beat-box/po/../src//Utils/PlaylistUtils.vala:229
+msgid "Export Playlist"
+msgstr "Exportar lista de reproducción"
+
+#: /home/scott/beat-box/po/../core//Media/Media.vala:44
+msgid "Audiobook"
+msgid_plural "Audiobooks"
+msgstr[0] "Audiolibro"
+msgstr[1] "Audiolibros"
+
+#: /home/scott/beat-box/po/../core//Media/Media.vala:48
+msgid "Video"
+msgid_plural "Videos"
+msgstr[0] "Vídeo"
+msgstr[1] "Vídeos"
+
+#: /home/scott/beat-box/po/../core//Media/Media.vala:50
+msgid "TV Show"
+msgid_plural "TV Shows"
+msgstr[0] "Programa de TV"
+msgstr[1] "Programas de TV"
+
+#: /home/scott/beat-box/po/../core//Media/Media.vala:52
+msgid "Media"
+msgid_plural "Medias"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/scott/beat-box/po/../core//CellRenderers/CellDataFunctionHelper.vala:133
+#: /home/scott/beat-box/po/../plugins//Store/Widgets/StoreCellRenderer.vala:177
+msgid " kbps"
+msgstr " kbps"
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:44
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d segundo"
+msgstr[1] "%d segundos"
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:66
+#, c-format
+msgid "%i day"
+msgid_plural "%i days"
+msgstr[0] "%i día"
+msgstr[1] "%i días"
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:70
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i hora"
+msgstr[1] "%i horas"
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:74
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i minuto"
+msgstr[1] "%i minutos"
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:84
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:94
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:98
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:106
+#, c-format
+msgid "%s and %s"
+msgstr "%s y %s"
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:92
+#, c-format
+msgid "%s, %s and %s"
+msgstr "%s, %s y %s"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:63
+msgid "Date Released"
+msgstr "Fecha de lanzamiento"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:73
+msgid "Media Type"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:75
+msgid "Play Count"
+msgstr "Número de reproducciones"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:154
+msgid "is"
+msgstr "es"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:156
+msgid "is exactly"
+msgstr "es exactamente"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:158
+msgid "is not"
+msgstr "no es"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:160
+msgid "is at least"
+msgstr "es al menos"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:162
+msgid "is at most"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:164
+msgid "is within"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:166
+msgid "is before"
+msgstr ""
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:168
+msgid "contains"
+msgstr "contiene"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:170
+msgid "does not contain"
+msgstr "no contiene"
+
+#: /home/scott/beat-box/po/../plugins//Store/Widgets/StoreView.vala:184
+msgid "Music Store"
+msgstr "Tienda de música"
+
+#: /home/scott/beat-box/po/../plugins//Store/Widgets/AlbumView.vala:344
+#, c-format
+msgid "%s  by  %s"
+msgstr "%s  por  %s"
+
+#~ msgid "Similar"
+#~ msgstr "Similares"
+
+#~ msgid "Hide"
+#~ msgstr "Ocultar"
+
+#~ msgid "Show"
+#~ msgstr "Mostrar"
+
+#~ msgid "Import Music"
+#~ msgstr "Importar música"
+
+#~ msgid "Set Music Folder"
+#~ msgstr "Establecer carpeta de música"
+
+#~ msgid "Please make sure that your music folder is accessible and mounted."
+#~ msgstr "Asegúrese de que la carpeta de música sea accesible y esté montada."
+
+#~ msgid "BeatBox can't seem to find your music."
+#~ msgstr "BeatBox no pudo encontrar su música."
+
+#~ msgid "Rescan Music Folder"
+#~ msgstr "Examinar carpeta de música nuevamente"
+
+#~ msgid "Add Podcast"
+#~ msgstr "Añadir podcast"
+
+#~ msgid ""
+#~ "In this view, BeatBox will automatically find medias similar to the one you "
+#~ "are playing."
+#~ msgstr ""
+#~ "En este modo, BeatBox automáticamente encontrará contenido similar al que se "
+#~ "está reproduciendo."
+
+#~ msgid "Loading similar songs"
+#~ msgstr "Cargando canciones similares"
+
+#~ msgid "BeatBox could not find songs similar to"
+#~ msgstr "Beatbox no pudo encontrar canciones similares a"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid ""
+#~ "Make sure all song info is correct and you are connected to the Internet.\n"
+#~ "Some songs may not have matches."
+#~ msgstr ""
+#~ "Asegúrese de que toda la información de la canción es correcta y que se "
+#~ "encuentra conectado a Internet.\n"
+#~ "Algunas canciones pueden no tener coincidencias."
+
+#, c-format
+#~ msgid "<b>Rules</b>"
+#~ msgstr "<b>Reglas</b>"
+
+#, c-format
+#~ msgid "Options</b>"
+#~ msgstr "Opciones</b>"
+
+#~ msgid "Similar Media View"
+#~ msgstr "Modo de contenido similar"
+
+#~ msgid "BeatBox is loading songs similar to"
+#~ msgstr "BeatBox está cargando canciones similares a"
+
+#, c-format
+#~ msgid "Set Music Folder?"
+#~ msgstr "¿Establecer carpeta de música?"
+
+#, c-format
+#~ msgid "<b>Name of Playlist</b>"
+#~ msgstr "<b>Nombre de la lista de reproducción</b>"
+
+#, c-format
+#~ msgid "%s minutes"
+#~ msgstr "%s minutos"
+
+#~ msgid "songs"
+#~ msgstr "canciones"
+
+#~ msgid "podcasts"
+#~ msgstr "podcasts"
+
+#, c-format
+#~ msgid "%s hours"
+#~ msgstr "%s horas"
+
+#, c-format
+#~ msgid "%s days"
+#~ msgstr "%s días"
+
+#, c-format
+#~ msgid "%i MB"
+#~ msgstr "%i MB"
+
+#, c-format
+#~ msgid "%.2f GB"
+#~ msgstr "%.2f GB"
+
+#~ msgid "audiobooks"
+#~ msgstr "audiolibros"
+
+#~ msgid "items"
+#~ msgstr "elementos"
+
+#~ msgid "stations"
+#~ msgstr "estaciones"
+
+#, c-format
+#~ msgid "All %i %s"
+#~ msgstr "Todos %i %s"
+
+#~ msgid "Years"
+#~ msgstr "Años"
+
+#~ msgid "Artists"
+#~ msgstr "Artistas"
+
+#~ msgid "Albums"
+#~ msgstr "Álbumes"
+
+#~ msgid "Genres"
+#~ msgstr "Géneros"
+
+#~ msgid "Top"
+#~ msgstr "Arriba"
+
+#~ msgid "Left"
+#~ msgstr "Izquierda"
+
+#~ msgid "New Smart Playlist"
+#~ msgstr "Lista de reproducción inteligente nueva"
+
+#~ msgid "Ratings"
+#~ msgstr "Valoraciones"
+
+#~ msgid "Add Playlist"
+#~ msgstr "Añadir lista de reproducción"
+
+#~ msgid "Show Info Panel"
+#~ msgstr "Mostrar el panel de información"
+
+#~ msgid "Hide Info Panel"
+#~ msgstr "Ocultar el panel de información"
+
+#, c-format
+#~ msgid "<b>Importing</b> music from <b>%s</b> to library."
+#~ msgstr "<b>Importando</b> música desde <b>%s</b> a la colección."
+
+#~ msgid "Rescanning music folder for changes"
+#~ msgstr "Examinando cambios en la carpeta de música"
+
+#~ msgid "BeatBox has imported your library."
+#~ msgstr "BeatBox ha importado su colección."
+
+#~ msgid "Stop Syncing"
+#~ msgstr "Detener sincronización"
+
+#~ msgid ""
+#~ "The provided source is invalid. Make sure you are entering an RSS feed in "
+#~ "XML format."
+#~ msgstr ""
+#~ "La fuente proporcionada no es válida. Asegúrese de que introduce un canal "
+#~ "RSS en formato XML."
+
+#~ msgid "Similar Media"
+#~ msgstr "Contenidos similares"
+
+#~ msgid "media"
+#~ msgstr "contenido"
+
+#~ msgid "You can then start playing those medias, or save them for later."
+#~ msgstr ""
+#~ "Luego podrá reproducir esos contenidos, o guardarlos para más adelante."

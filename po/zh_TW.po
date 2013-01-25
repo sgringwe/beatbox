@@ -1,0 +1,2194 @@
+# Chinese (Traditional) translation for beat-box
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the beat-box package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: beat-box\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-28 11:18-0400\n"
+"PO-Revision-Date: 2012-12-01 08:56+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2012-12-02 04:48+0000\n"
+"X-Generator: Launchpad (build 16319)\n"
+"Language: \n"
+
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:321
+msgid "Resolve"
+msgstr "解析"
+
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:766
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:340
+msgid "Import Complete"
+msgstr "匯入完成"
+
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:766
+#, c-format
+msgid "BeatBox has imported your %s library."
+msgstr "BeatBox 已匯入您的 %s 珍藏館。"
+
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:859
+#: /home/scott/beat-box/po/../src//Core/LibraryWindow.vala:866
+#, c-format
+msgid "%s media files could not be found."
+msgstr "%s 媒體檔無法被找到。"
+
+#: /home/scott/beat-box/po/../src//Core/FileOperator.vala:459
+#, c-format
+msgid "Copying files to %s Folder..."
+msgstr "複製檔案到%s資料夾..."
+
+#: /home/scott/beat-box/po/../src//Core/FileOperator.vala:479
+#, c-format
+msgid "Copying %s to %s Folder"
+msgstr "複製%s到%s資料夾"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:36
+msgid "Cancelling remaining downloads..."
+msgstr "取消剩下的下載..."
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:37
+msgid "Fetching new podcast episodes"
+msgstr "正在取得新的播客節目"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:38
+#, c-format
+msgid "Searching for new %s podcast episodes..."
+msgstr "正搜尋是否有新的 %s 播客節目..."
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:39
+#, c-format
+msgid "Fetching podcast from %s"
+msgstr "正從 %s 取得播客"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:40
+#, c-format
+msgid "Downloading %s (%d of %d)"
+msgstr "正在下載 %s (%d / %d)"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:48
+msgid "Downloading new Podcasts"
+msgstr "正在下載新的播客"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:138
+msgid "Parsing new Podcast RSS"
+msgstr "正在解析新的播客 RSS"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:339
+msgid "Downloading Podcast Episodes"
+msgstr "正在下載播客節目"
+
+#: /home/scott/beat-box/po/../src//Core/PodcastManager.vala:349
+msgid "Downloading Podcast Episodes..."
+msgstr "正在下載播客節目..."
+
+#: /home/scott/beat-box/po/../src//Core/PlaylistManager.vala:179
+msgid "Adding playlist to Library"
+msgstr "正在加入播放清單至音樂庫"
+
+#: /home/scott/beat-box/po/../src//Core/PlaylistManager.vala:199
+#, c-format
+msgid "Importing %s to Library..."
+msgstr "正將 %s 匯入珍藏館中..."
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:41
+msgid "Create Playlist"
+msgstr "建立播放清單"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:41
+msgid "Create a new Playlist"
+msgstr "建立一新的播放清單"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:42
+msgid "Create Smart Playlist"
+msgstr "建立智慧型播放清單"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:42
+msgid "Create a new Smart Playlist"
+msgstr "建立一新的智慧型播放清單"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:43
+msgid "Import Playlist"
+msgstr "匯入播放清單"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:43
+msgid "Import playlist from file"
+msgstr "從檔案匯入播放清單"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:44
+msgid "Import Station"
+msgstr "匯入電臺"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:44
+msgid "Import station from file"
+msgstr "從檔案匯入電臺"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:45
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:51
+msgid "Add RSS Feed"
+msgstr "加入 RSS Feed"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:45
+msgid "Add a new RSS Podcast Feed to your library"
+msgstr "加入一新的播客 RSS Feed 到您的珍藏館"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:46
+msgid "Download new Episodes"
+msgstr "下載新節目"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:46
+msgid "Download new Podcast Episodes"
+msgstr "下載新的播客節目"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:47
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:60
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:54
+msgid "Preferences"
+msgstr "偏好設定"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:48
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:61
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:80
+msgid "Equalizer"
+msgstr "等化器"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:49
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:59
+msgid "Next"
+msgstr "下"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:50
+msgid "Play/Pause"
+msgstr "播放/暫停"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:51
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:57
+msgid "Previous"
+msgstr "上"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:52
+msgid "Ban"
+msgstr "禁止"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:52
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:53
+msgid "Love"
+msgstr "喜愛"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:54
+msgid "Show Duplicates"
+msgstr "顯示重複項"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:55
+msgid "Hide Duplicates"
+msgstr "隱藏重複"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:56
+msgid "Exit"
+msgstr "離開"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:129
+#, c-format
+msgid "Choose %s Folder"
+msgstr "選擇 %s 資料夾"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:147
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:299
+#, c-format
+msgid "Import %s"
+msgstr "匯入 %s"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:175
+msgid "Import Failed"
+msgstr "匯入失敗"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:175
+#, c-format
+msgid ""
+"Your library's %s folder could not be found. Please make sure your %s folder "
+"is mounted before importing."
+msgstr "找不到您珍藏館的 %s 資料夾。請確認您的 %s 資料夾在匯入之前已掛載好。"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:179
+msgid "Doing Partial Import"
+msgstr "執行部份匯入"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:179
+#, c-format
+msgid ""
+"Some of the folders you selected to import are already in your %s Folder. "
+"Please rescan instead."
+msgstr "一些您所選取要匯入的資料夾已經存在於您的 %s 資料夾。請重新掃描。"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:266
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:129
+msgid "Pause"
+msgstr "暫停"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:270
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:58
+#: /home/scott/beat-box/po/../src//DBus/UnityIntegration.vala:129
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:190
+msgid "Play"
+msgid_plural "Plays"
+msgstr[0] "播放"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:335
+msgid "Invalid Playlist"
+msgstr "無效的播放清單"
+
+#: /home/scott/beat-box/po/../src//Core/Actions.vala:335
+msgid "Unrecognized playlist file. Import failed."
+msgstr "無法辨識的播放清單檔案。匯入失敗。"
+
+#: /home/scott/beat-box/po/../src//Media/Podcast.vala:77
+#: /home/scott/beat-box/po/../src//Media/Song.vala:57
+#: /home/scott/beat-box/po/../src//NowPlayingView/SongSummarySection.vala:326
+#: /home/scott/beat-box/po/../src//NowPlayingView/PodcastSummarySection.vala:290
+#: /home/scott/beat-box/po/../core//Media/Preview.vala:57
+#: /home/scott/beat-box/po/../plugins//Store/Widgets/AlbumView.vala:338
+msgid "Unknown Artist"
+msgstr "未知藝人"
+
+#: /home/scott/beat-box/po/../src//Media/Podcast.vala:77
+#: /home/scott/beat-box/po/../src//Media/Station.vala:77
+#: /home/scott/beat-box/po/../src//Media/Song.vala:57
+#: /home/scott/beat-box/po/../core//Media/Preview.vala:57
+msgid " by "
+msgstr " 來自 "
+
+#: /home/scott/beat-box/po/../src//Media/Podcast.vala:78
+#: /home/scott/beat-box/po/../src//Media/Song.vala:58
+#: /home/scott/beat-box/po/../src//NowPlayingView/SongSummarySection.vala:327
+#: /home/scott/beat-box/po/../src//NowPlayingView/PodcastSummarySection.vala:291
+#: /home/scott/beat-box/po/../src//NowPlayingView/PodcastSummarySection.vala:299
+#: /home/scott/beat-box/po/../core//Media/Preview.vala:58
+msgid "Unknown Album"
+msgstr "未知專輯"
+
+#: /home/scott/beat-box/po/../src//Media/Podcast.vala:78
+#: /home/scott/beat-box/po/../src//Media/Station.vala:78
+#: /home/scott/beat-box/po/../src//Media/Song.vala:58
+#: /home/scott/beat-box/po/../core//Media/Preview.vala:58
+msgid " on "
+msgstr " 專輯 "
+
+#: /home/scott/beat-box/po/../src//Media/Station.vala:76
+msgid "Unknown Song"
+msgstr "未知的歌曲"
+
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:45
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:51
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:51
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:57
+msgid "Library Management"
+msgstr "珍藏館管理"
+
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:46
+msgid "Keep media folders organized"
+msgstr "保持媒體資料夾有組織的"
+
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:47
+msgid "Write metadata to file"
+msgstr "將中介資料寫入檔案"
+
+#: /home/scott/beat-box/po/../src//Preferences/BehaviorPreferences.vala:48
+msgid "Copy files to library folder when imported"
+msgstr "複製檔案到珍藏館資料夾當匯入時"
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:52
+msgid "Login"
+msgstr "登入"
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:53
+msgid "Logout"
+msgstr "登出"
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:56
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:60
+msgid "Authentication"
+msgstr "驗證"
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:73
+msgid "Username:"
+msgstr "使用者名稱："
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:74
+msgid "Password:"
+msgstr "密碼："
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:161
+#, c-format
+msgid "You are logged in as %s."
+msgstr "您登錄為%s。"
+
+#: /home/scott/beat-box/po/../src//Preferences/LastfmPreferences.vala:169
+#, c-format
+msgid "BeatBox was unable to log in as %s. Please try again."
+msgstr "BeatBox 無法登錄為%s。請再試一次。"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:46
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:56
+msgid "Podcast Library Location"
+msgstr "播客珍藏館位置"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:47
+msgid "Podcast Folder"
+msgstr "播客資料夾"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:48
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:47
+msgid "Import..."
+msgstr "匯入..."
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:49
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:48
+msgid "Rescan"
+msgstr "重新掃描"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:52
+msgid "Automatically download new podcast episodes"
+msgstr "自動下載新的播客節目"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:109
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:95
+msgid "Could not find Music Folder"
+msgstr "找不到音樂資料夾"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:109
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:95
+msgid "Please make sure that your Music folder is accessible and mounted."
+msgstr "請確認您的音樂資料夾是可進入和掛載的。"
+
+#: /home/scott/beat-box/po/../src//Preferences/PodcastPreferences.vala:125
+msgid ""
+"Please wait until all operations finish before setting your podcast folder."
+msgstr "請等待，直到所有的操作完成後，再設定您的播客資料夾。"
+
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:45
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:51
+msgid "Music Library Location"
+msgstr "音樂珍藏館位置"
+
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:46
+msgid "Music Folder"
+msgstr "音樂資料夾"
+
+#: /home/scott/beat-box/po/../src//Preferences/MusicPreferences.vala:111
+msgid ""
+"Please wait until all operations finish before setting your music folder."
+msgstr "請等待，直到所有的操作完成後，再設定您的音樂資料夾。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SourceView.vala:280
+msgid "No Results"
+msgstr "沒有結果"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SourceView.vala:280
+msgid "Your search query returned no results."
+msgstr "您的搜尋查詢沒有返回任何結果。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:45
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:46
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:37
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:120
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:67
+msgid "song"
+msgid_plural "songs"
+msgstr[0] "首歌"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:54
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:46
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:46
+msgid "Save as Playlist"
+msgstr "儲存為播放清單"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:55
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:47
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:62
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:61
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:47
+msgid "Export..."
+msgstr "匯出..."
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:113
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:220
+#, c-format
+msgid "Similar to %s"
+msgstr "類似於 %s"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:147
+#, c-format
+msgid "BeatBox is finding songs similar to <b>%s</b> by <b>%s</b>"
+msgstr "BeatBox 找到類似 <b>%s</b> (演出者 <b>%s</b>) 的歌曲"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:148
+msgid "Fetching similar songs"
+msgstr "取得類似的歌曲"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:156
+#, c-format
+msgid "BeatBox could not find songs similar to <b>%s</b> by <b>%s</b>. "
+msgstr "BeatBox 找不到類似 <b>%s</b> (演出者 <b>%s</b>) 的歌曲。 "
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:157
+msgid ""
+"Make sure all song info is correct and you are connected to the Internet. "
+"Some songs may not have matches."
+msgstr "請確認所有歌曲資訊是正確的，且您已連上網際網路。有些歌曲可能沒有相符的類似歌曲。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:158
+msgid "No similar songs found"
+msgstr "找不到類似歌曲"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:187
+msgid "Similar Songs"
+msgstr "類似的歌曲"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SimilarSourceView.vala:220
+msgid "Similar list"
+msgstr "相似清單"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:46
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:39
+#: /home/scott/beat-box/po/../src//SourceViews/DefaultSourceView.vala:38
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:49
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:48
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:39
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:132
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:80
+msgid "item"
+msgid_plural "items"
+msgstr[0] "項"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:51
+msgid "Remove Checked Items"
+msgstr "移除勾選的項目"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:53
+msgid "Manually select duplicates"
+msgstr "手動選取重複項"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:54
+msgid "Keep highest bitrate"
+msgstr "保持最高位元率"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:55
+msgid "Keep largest file"
+msgstr "保持最大的檔案"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:85
+msgid "Victory! No Duplicates!"
+msgstr "勝利！沒有重複項！"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:85
+msgid "Your library has no duplicates."
+msgstr "您的珍藏館沒有重複的項目。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DuplicateSourceView.vala:186
+msgid "Duplicates"
+msgstr "重複項"
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:67
+msgid "No songs in History"
+msgstr "沒有歌曲在歷史紀錄中"
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:67
+msgid ""
+"After a part of a song has been played, it is added to the history list."
+msgstr "播放一首歌其中一段之後，會將它加入歷史清單中。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:68
+msgid ""
+"You can use this list to see all the songs you have played during the "
+"current session."
+msgstr "您可以使用這個清單來查看您本次播放處理中所有已播過的歌曲。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:91
+msgid "History"
+msgstr "歷史"
+
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:112
+#: /home/scott/beat-box/po/../src//SourceViews/HistorySourceView.vala:126
+msgid " play history"
+msgstr " 播放歷史"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DefaultSourceView.vala:56
+msgid "No Media Found"
+msgstr "找不到媒體"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DefaultSourceView.vala:56
+msgid "There is no media here."
+msgstr "這裡沒有媒體。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:40
+msgid "podcast"
+msgstr "Podcast"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:43
+msgid "Subscribe to Podcasts"
+msgstr "訂閱播客"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:43
+msgid "No Podcasts were found."
+msgstr "找不到播客。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:46
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:45
+msgid "Search"
+msgstr "搜尋"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:46
+msgid "Find RSS feeds online."
+msgstr "尋找線上 RSS feeds。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:74
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:81
+msgid "No Podcasts Found"
+msgstr "找不到播客"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:74
+msgid ""
+"To add a podcast, visit a website such as Miro Guide to find RSS Feeds."
+msgstr "若要加入播客，請造訪像 Miro Guide 這樣的網站來尋找 RSS Feeds。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:75
+msgid ""
+"You can then copy and paste the feed into the \"Add Podcast\" window by "
+"right clicking on \"Podcasts\"."
+msgstr "您可以藉由在「Podcasts」上，用滑鼠右點擊，複製並貼上 feed 到「加入 Podcast」視窗。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PodcastSourceView.vala:115
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:174
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:91
+#: /home/scott/beat-box/po/../src//Libraries/PodcastLibrary.vala:36
+msgid "Podcasts"
+msgstr "Podcast"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:55
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:216
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:155
+msgid "Import to Library"
+msgstr "匯入至珍藏館"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:56
+msgid "Eject"
+msgstr "退出"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:81
+msgid ""
+"This device supports podcasts. To sync podcasts with this device, edit the "
+"device's preferences."
+msgstr "這個裝置支援 Podcast。若要讓 Podcast 在此裝置上同步，請編輯該裝置的偏好設定。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:86
+msgid "No Music Found"
+msgstr "找不到音樂"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:86
+msgid "To sync music with this device, edit the device's preferences."
+msgstr "若要讓音樂與此裝置同步，請編輯該裝置的偏好設定。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:94
+msgid "Audio CD Invalid"
+msgstr "音效 CD 無效"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:94
+msgid "BeatBox could not read the contents of this Audio CD."
+msgstr "BeatBox 無法讀取此音效 CD 的內容。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:172
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:183
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:90
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:36
+msgid "Music"
+msgstr "音樂"
+
+#: /home/scott/beat-box/po/../src//SourceViews/DeviceSourceView.vala:176
+msgid "Audiobooks"
+msgstr "有聲書"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:60
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:59
+msgid "Edit"
+msgstr "編輯"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:61
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:60
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:346
+msgid "Remove"
+msgstr "移除"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:134
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:83
+msgid "No Media"
+msgstr "沒有媒體"
+
+#: /home/scott/beat-box/po/../src//SourceViews/SmartPlaylistSourceView.vala:134
+msgid ""
+"No media fits this smart playlist's rules. To edit its rules, right click on "
+"it in the sidebar and choose \"Edit\"."
+msgstr "沒有媒體符合此智慧型播放清單的規則。若要編輯其規則，請在側邊欄中對它按下右鍵，並選擇「編輯」。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:39
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:129
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:76
+msgid "station"
+msgid_plural "stations"
+msgstr[0] "電臺"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:42
+msgid "Turn up the Radio"
+msgstr "收聽廣播電台"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:42
+msgid "No Stations were found."
+msgstr "沒有找到電台。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:45
+msgid "Find radio stations online."
+msgstr "尋找線上廣播電臺。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:72
+msgid "No Internet Radio Stations Found"
+msgstr "找不到網路廣播電台"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:72
+msgid ""
+"To add a station, visit a website such as SomaFM to find PLS or M3U files."
+msgstr "若要加入電臺，請造訪像 SomaFM 這樣的網站來尋找 PLS 或 M3U 檔案。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:73
+msgid "You can then import the file to add the station."
+msgstr "您可以接著匯入檔案來加入該電臺。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/StationSourceView.vala:113
+msgid "Internet Radio"
+msgstr "網路廣播電台"
+
+#: /home/scott/beat-box/po/../src//SourceViews/PlaylistSourceView.vala:83
+msgid ""
+"To add to this playlist, drag and drop songs from a list onto the sidebar "
+"item or\n"
+"right click on an item and choose \"Add to Playlist\"."
+msgstr ""
+"若要加入此播放清單，請將歌曲從清單拖曳至側邊欄項目上，\n"
+"或右點一項目並選擇「加入播放清單中」。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:67
+msgid "No songs in Queue"
+msgstr "沒有歌曲在佇列中"
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:67
+msgid ""
+"To queue a song, drag and drop a song from a list onto the queue sidebar "
+"item."
+msgstr "若要將歌曲佇列，請將清單中的歌曲拖放至佇列側邊欄項目上。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:68
+msgid ""
+"When a song finishes, the queued songs will be played first before the next "
+"song in the currently playing list."
+msgstr "在目前播放的清單中，當一首歌結束後將優先播放剛佇列的歌曲。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:90
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:212
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:150
+msgid "Queue"
+msgstr "佇列"
+
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:125
+#: /home/scott/beat-box/po/../src//SourceViews/QueueSourceView.vala:139
+msgid " play queue"
+msgstr " 播放佇列"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:40
+msgid "Get Some Tunes"
+msgstr "取得一些樂曲"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:40
+msgid "BeatBox can't find your music."
+msgstr "BeatBox 無法找到您的音樂。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:43
+msgid "Locate"
+msgstr "定位"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:43
+msgid "Change your music folder."
+msgstr "變更您的音樂資料夾。"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:78
+msgid "Import songs from audio CD"
+msgstr "從音訊 CD 匯入歌曲"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:78
+msgid "Import media from device"
+msgstr "從裝置匯入媒體"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:150
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:100
+msgid "No External Songs"
+msgstr "沒有外部的歌曲"
+
+#: /home/scott/beat-box/po/../src//SourceViews/MusicSourceView.vala:150
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:100
+msgid ""
+"There were no songs found on this device that are not in your library."
+msgstr "這部裝置中沒有您珍藏館中沒有的歌曲。"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:73
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:59
+msgid "Import from Device"
+msgstr "從裝置匯入"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:74
+#: /home/scott/beat-box/po/../src//Widgets/SpaceWidget.vala:207
+msgid "Sync"
+msgstr "同步"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceView.vala:75
+msgid "Unmount"
+msgstr "卸載"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:91
+msgid "Library"
+msgstr "珍藏館"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:92
+msgid "Devices"
+msgstr "裝置"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:93
+msgid "Network"
+msgstr "網路"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:94
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:101
+msgid "Plugins"
+msgstr "插件"
+
+#: /home/scott/beat-box/po/../src//Views/SideTreeView.vala:95
+msgid "Playlists"
+msgstr "播放清單"
+
+#: /home/scott/beat-box/po/../src//Views/PopupListView.vala:197
+#, c-format
+msgid "%s by %s"
+msgstr "%s 由 %s"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:64
+msgid "Device Name"
+msgstr "裝置名稱"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:82
+msgid "Device Name:"
+msgstr "裝置名稱："
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:83
+msgid "Automatically sync when plugged in:"
+msgstr "當插入時自動同步："
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:84
+msgid "Sync:"
+msgstr "同步："
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:93
+msgid "Other"
+msgstr "其它"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:336
+msgid "All Music"
+msgstr "所有音樂"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:338
+msgid "All Podcasts"
+msgstr "所有 Podcast"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:428
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:455
+msgid "Sync Failed"
+msgstr "同步失敗"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:428
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:455
+#, c-format
+msgid ""
+"The playlist named %s is used to sync device %s, but could not be found."
+msgstr "名為 %s 的播放清單用來同步 %s 裝置，但卻找不到。"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:501
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:504
+msgid "Cannot Sync"
+msgstr "無法同步"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:501
+msgid ""
+"Cannot sync device with selected sync settings. Not enough space on disk"
+msgstr "無法以選取的同步設定值同步裝置。磁碟空間不足"
+
+#: /home/scott/beat-box/po/../src//Views/DeviceSummaryWidget.vala:504
+msgid "Device is already being synced."
+msgstr "裝置正被同步。"
+
+#: /home/scott/beat-box/po/../src//Libraries/StationLibrary.vala:36
+msgid "Stations"
+msgstr "電台"
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:149
+#, c-format
+msgid "Setting %s Folder"
+msgstr "正在設定%s資料夾"
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:163
+#, c-format
+msgid "Importing %s from %s..."
+msgstr "正在匯入%s從%s..."
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:187
+#, c-format
+msgid "Adding files to %s Library"
+msgstr "正加入檔案到%s珍藏館"
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:199
+#, c-format
+msgid "Adding files to %s library..."
+msgstr "正加入檔案到%s珍藏館..."
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:214
+#, c-format
+msgid "Add folders to %s Library"
+msgstr "加入資料夾到%s珍藏館"
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:228
+#, c-format
+msgid "Adding media from %s to %s library..."
+msgstr "從%s加入媒體到%s珍藏館..."
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:231
+#, c-format
+msgid "Adding media from %s folders to %s library..."
+msgstr "從%s資料夾加入媒體到%s珍藏館..."
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:253
+#, c-format
+msgid "Rescanning %s Folder"
+msgstr "正在重新掃描 %s 資料夾"
+
+#: /home/scott/beat-box/po/../src//Libraries/BaseLibrary.vala:264
+#, c-format
+msgid "Rescanning %s folder for changes..."
+msgstr "正在重新掃描 %s 資料夾的變動..."
+
+#: /home/scott/beat-box/po/../src//Libraries/PodcastLibrary.vala:450
+msgid "Unheard Podcasts"
+msgstr "未收聽的 Podcast"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:483
+msgid "Favorite Songs"
+msgstr "最喜愛的歌曲"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:492
+msgid "Recently Added"
+msgstr "最近加入的"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:500
+msgid "Recently Played"
+msgstr "最近播放的"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:508
+msgid "Recent Favorites"
+msgstr "最近的最愛"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:518
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:173
+msgid "Never Played"
+msgstr "從未播放的"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:527
+msgid "Over Played"
+msgstr "經常播放"
+
+#: /home/scott/beat-box/po/../src//Libraries/SongLibrary.vala:536
+msgid "Not Recently Played"
+msgstr "不是最近播放的"
+
+#: /home/scott/beat-box/po/../src//NowPlayingView/SongArtistSection.vala:89
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:164
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:139
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:103
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:56
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:53
+msgid "Artist"
+msgstr "藝人"
+
+#: /home/scott/beat-box/po/../src//NowPlayingView/SongArtistSection.vala:135
+#, c-format
+msgid "Top Tracks"
+msgstr "熱門曲目"
+
+#: /home/scott/beat-box/po/../src//config.vala:18
+#: /home/scott/beat-box/po/../core//config.vala:18
+msgid "Listen to music, podcasts and stations"
+msgstr "聆聽音樂、播客和電台"
+
+#: /home/scott/beat-box/po/../src//config.vala:19
+#: /home/scott/beat-box/po/../core//config.vala:19
+msgid "Audio Player"
+msgstr "音樂播放器"
+
+#: /home/scott/beat-box/po/../src//config.vala:20
+#: /home/scott/beat-box/po/../core//config.vala:20
+msgid "BeatBox Audio Player"
+msgstr "BeatBox 音樂播放器"
+
+#: /home/scott/beat-box/po/../src//Devices/AndroidDevice.vala:64
+msgid "No Description"
+msgstr "沒有描述"
+
+#: /home/scott/beat-box/po/../src//Devices/AndroidDevice.vala:92
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:130
+msgid "Unknown capacity"
+msgstr "未知容量"
+
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:98
+msgid "Multimedia Disc"
+msgstr "多媒體光碟"
+
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:213
+#, c-format
+msgid "Ripping from %s"
+msgstr "正在擷取從 %s"
+
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:270
+#, c-format
+msgid "CD Import cancelled. Finishing ripping track %s..."
+msgstr "CD 匯入已取消。正在完成擷取曲目 %s..."
+
+#: /home/scott/beat-box/po/../src//Devices/CDRomDevice.vala:340
+#, c-format
+msgid "BeatBox has finished importing %d song(s) from Audio CD"
+msgstr "BeatBox已經完成從音樂CD匯入%d首歌曲"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:208
+msgid "Unknown Capacity"
+msgstr "未知容量"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:282
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:465
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:597
+#, c-format
+msgid "Syncing %s"
+msgstr "正在同步 %s"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:292
+msgid "Syncing "
+msgstr "同步中 "
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:307
+msgid "Removing old medias from iPod and updating current ones"
+msgstr "正從 iPod 移除老舊媒體並更新目前的媒體"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:357
+msgid "Adding new media to iPod..."
+msgstr "正加入新媒體至 iPod 中..."
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:393
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:497
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:644
+msgid "Cancelling Sync..."
+msgstr "取消同步..."
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:393
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:497
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:644
+msgid "Finishing sync process..."
+msgstr "完成同步過程..."
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:475
+msgid "Syncing"
+msgstr "正在同步"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:533
+msgid "Adding"
+msgstr "正加入"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:534
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:673
+msgid "by"
+msgstr "由"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:535
+msgid "to"
+msgstr "目標"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:607
+msgid "Removing from "
+msgstr "正在移除從 "
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:672
+msgid "Removing"
+msgstr "移除"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:674
+msgid "from"
+msgstr "來源"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:739
+msgid "Syncing playlists"
+msgstr "同步播放清單"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:792
+#, c-format
+msgid "Transferring from %s"
+msgstr "正在傳輸從 %s"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:803
+#, c-format
+msgid "Importing %s items to library..."
+msgstr "正在匯入 %s 項目至珍藏館..."
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:822
+msgid "Importing"
+msgstr "正在匯入"
+
+#: /home/scott/beat-box/po/../src//Devices/iPodDevice.vala:822
+msgid "to library"
+msgstr "至珍藏館"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:68
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:98
+msgid "Remove Station"
+msgstr "移除電臺"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:82
+#: /home/scott/beat-box/po/../src//Windows/Editors/StationEditor.vala:62
+#: /home/scott/beat-box/po/../core//Media/Media.vala:46
+msgid "Station"
+msgid_plural "Stations"
+msgstr[0] "電臺"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:83
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:166
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:141
+#: /home/scott/beat-box/po/../src//Windows/Editors/StationEditor.vala:63
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:74
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:106
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:65
+msgid "Genre"
+msgstr "曲風"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:84
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:169
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:144
+#: /home/scott/beat-box/po/../src//Windows/Editors/StationEditor.vala:64
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:77
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:113
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:77
+msgid "Rating"
+msgstr "評等"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:97
+msgid "Edit Station"
+msgstr "編輯電臺"
+
+#: /home/scott/beat-box/po/../src//Lists/RadioList.vala:203
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:415
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:351
+#, c-format
+msgid "Edit %s"
+msgstr "編輯%s"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:101
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:88
+msgid "Remove from Library"
+msgstr "從珍藏館移除"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:112
+msgid "Remove from Queue"
+msgstr "移除從佇列"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:131
+msgid "Remove from Device"
+msgstr "移除從裝置"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:160
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:135
+msgid "#"
+msgstr "#"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:161
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:136
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:76
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:110
+msgid "Track"
+msgstr "曲目"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:162
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:137
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:71
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:102
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:81
+msgid "Title"
+msgstr "標題"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:163
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:138
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:71
+msgid "Length"
+msgstr "長度"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:165
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:140
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:105
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:55
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:51
+msgid "Album"
+msgstr "專輯"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:167
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:142
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:112
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:83
+msgid "Year"
+msgstr "年份"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:168
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:143
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:55
+msgid "Bitrate"
+msgstr "位元率"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:170
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:145
+msgid "Plays"
+msgstr "播放數"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:171
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:146
+msgid "Skips"
+msgstr "略過數"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:172
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:147
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:61
+msgid "Date Added"
+msgstr "加入日期"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:173
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:148
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:69
+msgid "Last Played"
+msgstr "上次播放"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:174
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:149
+msgid "BPM"
+msgstr "BPM"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:210
+msgid "Edit Song Info"
+msgstr "編輯歌曲資訊"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:211
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:187
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:149
+msgid "Show in File Browser"
+msgstr "顯示在檔案瀏覽器"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:213
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:151
+#: /home/scott/beat-box/po/../core//Playlists/StaticPlaylist.vala:39
+msgid "New Playlist"
+msgstr "新增播放清單"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:214
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:152
+msgid "Add to Playlist"
+msgstr "加入播放清單中"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:215
+msgid "Remove Song"
+msgstr "移除歌曲"
+
+#: /home/scott/beat-box/po/../src//Lists/MusicList.vala:217
+msgid "Scroll to Current Song"
+msgstr "卷動至目前歌曲"
+
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:185
+msgid "Check"
+msgstr "檢查"
+
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:186
+msgid "Uncheck"
+msgstr "未檢查"
+
+#: /home/scott/beat-box/po/../src//Lists/DuplicateList.vala:188
+msgid "Remove Media"
+msgstr "移除媒體"
+
+#: /home/scott/beat-box/po/../src//Lists/GenericList.vala:277
+msgid "Playing not Supported"
+msgstr "不支援播放"
+
+#: /home/scott/beat-box/po/../src//Lists/GenericList.vala:277
+msgid ""
+"Due to issues with playing songs on certain iOS devices, playing songs on "
+"devices is currently not supported."
+msgstr "由於在某些 iOS 裝置上播放歌曲上有些問題，因此目前尚未支援在這些裝置上播放歌曲。"
+
+#: /home/scott/beat-box/po/../src//Lists/GenericList.vala:454
+msgid "Media Editor"
+msgstr "媒體編輯器"
+
+#: /home/scott/beat-box/po/../src//Lists/GenericList.vala:454
+msgid "Editing of multiple media types is not allowed"
+msgstr "編輯多種媒體類型是不允許的"
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:148
+msgid "Edit Podcast"
+msgstr "編輯播客"
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:153
+msgid "Remove Episode"
+msgstr "移除節目"
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:154
+msgid "Download"
+msgstr "下載"
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:478
+msgid "Stopping File Browse"
+msgstr "停止檔案瀏覽"
+
+#: /home/scott/beat-box/po/../src//Lists/PodcastList.vala:478
+msgid ""
+"Too many medias have already been opened in File Browser. Stopping any more "
+"openings."
+msgstr "已在檔案瀏覽器中開啟過多媒體。正在停止其他開啟動作。"
+
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:86
+#: /home/scott/beat-box/po/../src//Windows/PlaylistNameWindow.vala:63
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:149
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:94
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:156
+msgid "Done"
+msgstr "完成"
+
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:99
+msgid "General"
+msgstr "一般"
+
+#: /home/scott/beat-box/po/../src//Windows/PreferencesWindow.vala:100
+msgid "Libraries"
+msgstr "珍藏館"
+
+#: /home/scott/beat-box/po/../src//Windows/PlaylistNameWindow.vala:61
+#: /home/scott/beat-box/po/../src//Windows/PlaylistNameWindow.vala:68
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:74
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:82
+#, c-format
+msgid "Name of Playlist"
+msgstr "播放清單的名稱"
+
+#: /home/scott/beat-box/po/../src//Windows/PlaylistNameWindow.vala:64
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:81
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:69
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:95
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:157
+msgid "Cancel"
+msgstr "取消"
+
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:76
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:84
+#, c-format
+msgid "Podcast RSS Source"
+msgstr "Podcast RSS 來源"
+
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:77
+msgid "Podcast Source..."
+msgstr "Podcast 來源..."
+
+#: /home/scott/beat-box/po/../src//Windows/AddPodcastWindow.vala:80
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:134
+msgid "Add"
+msgstr "加入"
+
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:147
+msgid "Save preset"
+msgstr "儲存預先設定"
+
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:396
+msgid "Custom Preset"
+msgstr "自訂預先設定"
+
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:401
+msgid "Custom"
+msgstr "自訂"
+
+#: /home/scott/beat-box/po/../src//Windows/EqualizerWindow.vala:401
+msgid " Preset"
+msgstr " 預先設定"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:44
+#, c-format
+msgid "Analyzing %d of %d..."
+msgstr "正在分析 %d / %d..."
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:51
+msgid "Duplicates Remover"
+msgstr "重複項目移除器"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:70
+msgid "Analyze..."
+msgstr "分析..."
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:73
+msgid "Media must match by at least "
+msgstr "媒體必須符合至少 "
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:74
+msgid " percent."
+msgstr " %。"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:93
+msgid "Matching Criteria"
+msgstr "比對準則"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:94
+msgid "Title and Artist"
+msgstr "標題與演出者"
+
+#: /home/scott/beat-box/po/../src//Windows/RemoveDuplicatesDialog.vala:95
+msgid "Title, Artist, and Album"
+msgstr "標題、演出者、專輯"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:84
+msgid "Metadata"
+msgstr "詮釋資料"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:119
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:227
+#, c-format
+msgid "Editing %s"
+msgstr "正在編輯%s"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:122
+#, c-format
+msgid "Editing %d medias"
+msgstr "正在編輯 %d 項媒體"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/MediaEditor.vala:134
+msgid "Info"
+msgstr "資訊"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:62
+msgid "Smart Playlist Editor"
+msgstr "智慧型播放清單編輯器"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:75
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:83
+#, c-format
+msgid "Rules"
+msgstr "規則"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:76
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:84
+#, c-format
+msgid "Options"
+msgstr "選項"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:87
+msgid "Playlist Title"
+msgstr "播放清單標題"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:93
+msgid "Match"
+msgstr "符合"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:95
+msgid "any"
+msgstr "任一"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:96
+msgid "all"
+msgstr "全部"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:97
+msgid "of the following:"
+msgstr "下列之中："
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:140
+msgid "Limit to"
+msgstr "限制"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:142
+msgid "medias"
+msgstr "媒體"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:483
+msgid "seconds"
+msgstr "秒"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:487
+msgid "days ago"
+msgstr "天前"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SmartPlaylistEditor.vala:491
+msgid "kbps"
+msgstr "kbps"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:64
+msgid "Location:"
+msgstr "位置："
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:65
+msgid "File Size:"
+msgstr "檔案大小："
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:66
+msgid "Date Added:"
+msgstr "上架日期："
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:67
+msgid "Last Played:"
+msgstr "上次播放："
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:68
+msgid "Last Modified:"
+msgstr "修改日期："
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:69
+msgid "Play Count:"
+msgstr "播放次數："
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:70
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:79
+msgid "Skip Count"
+msgstr "略過計數"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:71
+msgid "Duration:"
+msgstr "長度："
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:72
+msgid "Audio Bitrate:"
+msgstr "音訊位元率："
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:73
+msgid "Sample Rate:"
+msgstr "取樣率："
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:164
+msgid "Unknown Size"
+msgstr "大小未知"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:180
+msgid "Never Modified"
+msgstr "永未修改"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:187
+msgid "No Plays"
+msgstr "無播放"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:194
+msgid "No Skips"
+msgstr "無略過"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:197
+msgid "Skip"
+msgid_plural "Skips"
+msgstr[0] "略過"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:203
+msgid "Unknown Bitrate"
+msgstr "未知的位元率"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:206
+#, c-format
+msgid "%d kbps"
+msgstr "%d kbps"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:210
+msgid "Unknown Sample Rate"
+msgstr "未知的取樣率"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/InfoViewport.vala:213
+#, c-format
+msgid "%d Hz"
+msgstr "%d Hz"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:72
+msgid "Author"
+msgstr "作者"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:73
+#: /home/scott/beat-box/po/../core//Media/Media.vala:42
+msgid "Podcast"
+msgid_plural "Podcasts"
+msgstr[0] "Podcast"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/PodcastEditor.vala:75
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:109
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:57
+msgid "Comment"
+msgstr "評註"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:104
+msgid "Album Artist"
+msgstr "專輯演出者"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:107
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:59
+msgid "Composer"
+msgstr "作曲者"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:108
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:67
+msgid "Grouping"
+msgstr "分組"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:111
+msgid "Disc"
+msgstr "光碟"
+
+#: /home/scott/beat-box/po/../src//Windows/Editors/SongEditor.vala:155
+msgid "Lyrics"
+msgstr "歌詞"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:36
+#, c-format
+msgid "%s, %s, %s"
+msgstr "%s，%s，%s"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:53
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:60
+msgid "Off"
+msgstr "關"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:53
+msgid "Repeat Off"
+msgstr "關閉重複播放"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:54
+#: /home/scott/beat-box/po/../core//Media/Media.vala:40
+msgid "Song"
+msgid_plural "Songs"
+msgstr[0] "歌曲"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:54
+msgid "Repeat Song"
+msgstr "重復該歌曲"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:55
+msgid "Repeat Album"
+msgstr "重復該專輯"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:56
+msgid "Repeat Artist"
+msgstr "重復該演出者"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:57
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:61
+msgid "All"
+msgstr "全部"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:57
+msgid "Repeat All"
+msgstr "重複全部"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:60
+msgid "Shuffle Disabled"
+msgstr "已停用隨機"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:61
+msgid "Shuffle Enabled"
+msgstr "已啟用隨機"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:107
+#, c-format
+msgid "%d minutes"
+msgid_plural "%d minutes"
+msgstr[0] "%d 分鐘"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:110
+#, c-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d 小時"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:113
+#, c-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d 天"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:123
+msgid "episode"
+msgid_plural "episodes"
+msgstr[0] "節目"
+
+#: /home/scott/beat-box/po/../src//Widgets/StatusBar.vala:126
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:73
+msgid "audiobook"
+msgid_plural "audiobooks"
+msgstr[0] "有聲書"
+
+#: /home/scott/beat-box/po/../src//Widgets/PresetList.vala:52
+msgid "Automatic"
+msgstr "自動"
+
+#: /home/scott/beat-box/po/../src//Widgets/PresetList.vala:53
+msgid "Delete Current"
+msgstr "刪除目前的"
+
+#: /home/scott/beat-box/po/../src//Widgets/AdvancedSearchBox.vala:39
+msgid "Search..."
+msgstr "搜尋..."
+
+#: /home/scott/beat-box/po/../src//Widgets/TopDisplay/BufferDisplay.vala:66
+#, c-format
+msgid "Buffering %s..."
+msgstr "正緩衝 %s..."
+
+#: /home/scott/beat-box/po/../src//Widgets/TopDisplay/BufferDisplay.vala:69
+msgid "Buffering..."
+msgstr "正在緩衝..."
+
+#: /home/scott/beat-box/po/../src//Widgets/SpaceWidget.vala:264
+msgid "Free"
+msgstr "未用空間"
+
+#: /home/scott/beat-box/po/../src//Widgets/SpaceWidget.vala:382
+msgid "Using %s of %s (%.0f%)"
+msgstr "正使用 %s / %s (%.0f%)"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:76
+msgid "Import medias from"
+msgstr "匯入媒體的位置"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:77
+#, c-format
+msgid ""
+"The following files were found on %s, but are not in your library. Check all "
+"files you would like to import."
+msgstr "在 %s 上找到下列檔案，但卻不在您的珍藏館中。請勾選所有您想匯入的檔案。"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:78
+msgid "Import all medias"
+msgstr "匯入所有媒體"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:83
+msgid "Import"
+msgstr "匯入"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:84
+msgid "Don't Import"
+msgstr "不要匯入"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:89
+#, c-format
+msgid "Import %s from %s"
+msgstr "匯入%s從%s"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:91
+#, c-format
+msgid "Import %d medias from %s"
+msgstr "從 %2$s 匯入 %1$d 項媒體"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:172
+msgid "Select individual medias to import:"
+msgstr "選取個別媒體來匯入："
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:190
+msgid "Check Item"
+msgstr "檢查項目"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:191
+msgid "Check Album"
+msgstr "檢查專輯"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:192
+msgid "Check Artist"
+msgstr "檢查藝人"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:283
+msgid "Cannot Import"
+msgstr "無法匯入"
+
+#: /home/scott/beat-box/po/../src//Dialogs/TransferFromDeviceDialog.vala:283
+msgid ""
+"BeatBox is already doing file operations. Please wait until those finish to "
+"import from "
+msgstr "BeatBox 現正執行檔案操作。請稍候直到那些工作完成，才能自此位置匯入 "
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:59
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:76
+msgid "Move to Trash"
+msgstr "移到回收筒"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:60
+msgid "Remove from BeatBox"
+msgstr "移除從 BeatBox"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:70
+msgid "podcast episode"
+msgid_plural "podcast episodes"
+msgstr[0] "播客節目"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:88
+#, c-format
+msgid "Remove %d %s from BeatBox?"
+msgstr "從 BeatBox 移除 %d %s？"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:94
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:96
+#, c-format
+msgid "Remove %s from BeatBox?"
+msgstr "從BeatBox移除%s?"
+
+#: /home/scott/beat-box/po/../src//Dialogs/RemoveFilesDialog.vala:103
+#, c-format
+msgid ""
+"This will remove the %s from your library and from any device that "
+"automatically syncs with BeatBox."
+msgstr "這會從您的珍藏館，以及任何自動與 BeatBox 同步的裝置中移除 %s。"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:43
+#, c-format
+msgid "Sync will remove %d medias from %s"
+msgstr "同步動作將從 %2$s 移除 %1$d 項媒體"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:44
+#, c-format
+msgid ""
+"If you continue to sync, medias will be removed from %s since they are not "
+"on the sync list. Would you like to import them to your library first?"
+msgstr "若您繼續同步，媒體將自 %s 中移除，因為它們不在同步清單中。您想要先將它們匯入珍藏館中嗎？"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:70
+msgid "Import medias to Library"
+msgstr "匯入媒體至珍藏館"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:71
+msgid "Continue Syncing"
+msgstr "繼續同步"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SyncWarningDialog.vala:72
+msgid "Dont Sync"
+msgstr "不要同步"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:70
+msgid "Export Playlists"
+msgstr "匯出播放清單"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:71
+#, c-format
+msgid "Set %s Folder"
+msgstr "設定%s資料夾"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:78
+#, c-format
+msgid "Set %s Folder?"
+msgstr "設定%s資料夾？"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:81
+#, c-format
+msgid ""
+"Are you sure you want to set the %s folder to %s? This will reset your %s "
+"library."
+msgstr "您確定要設定%s資料夾為%s？這將重設您的%s庫。"
+
+#: /home/scott/beat-box/po/../src//Dialogs/SetLibraryFolderConfirmation.vala:125
+msgid "Choose Music Folder"
+msgstr "選擇音樂資料夾"
+
+#: /home/scott/beat-box/po/../src//Dialogs/InstallGstreamerPluginsDialog.vala:64
+msgid "Install Plugin"
+msgstr "安裝插件"
+
+#: /home/scott/beat-box/po/../src//Dialogs/InstallGstreamerPluginsDialog.vala:65
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:87
+msgid "Do Nothing"
+msgstr "不採取動作"
+
+#: /home/scott/beat-box/po/../src//Dialogs/InstallGstreamerPluginsDialog.vala:69
+#, c-format
+msgid "Required GStreamer plugin not installed"
+msgstr "所需的GStreamer擴充套件尚未安裝"
+
+#: /home/scott/beat-box/po/../src//Dialogs/InstallGstreamerPluginsDialog.vala:72
+#, c-format
+msgid ""
+"The plugin for media type %s is not installed.\n"
+" What would you like to do?"
+msgstr ""
+"媒體類型 %s 的插件尚未安裝。\n"
+" 您想要怎麼做？"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:70
+#, c-format
+msgid "BeatBox was unable to import %d medias. The files may be damaged."
+msgstr "BeatBox 無法匯入 %d 項媒體。檔案可能已損毀。"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:71
+msgid "Move all corrupted files to trash"
+msgstr "將毀損的檔案移至回收筒"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:77
+msgid "Ignore"
+msgstr "忽略"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:81
+#, c-format
+msgid "Unable to import %d medias from %s"
+msgstr "無法從 %2$s 匯入 %1$d 項媒體"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:106
+msgid "File Location"
+msgstr "檔案的位置"
+
+#: /home/scott/beat-box/po/../src//Dialogs/NotImportedDialog.vala:133
+msgid "Select individual files to move to trash:"
+msgstr "選取要移至回收筒的個別檔案："
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:84
+#, c-format
+msgid "Remove %s"
+msgstr "移除%s"
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:85
+#, c-format
+msgid "Rescan %s Library"
+msgstr "重新掃描 %s 珍藏館"
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:86
+#, c-format
+msgid "Locate %s"
+msgstr "定位%s"
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:91
+#, c-format
+msgid "Could not find %s %s"
+msgstr "無法找到 %s %s"
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:91
+msgid "file"
+msgid_plural "files"
+msgstr[0] "檔案"
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:95
+#, c-format
+msgid "The file for %s by %s could not be found. What would you like to do?"
+msgstr "找不到來自 %2$s  的 %1$s 檔案。您想要怎麼做？"
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:97
+#, c-format
+msgid "%s files could not be found. What would you like to do?"
+msgstr "%s檔案無法被找到。您想要做什麼？"
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:121
+#, c-format
+msgid "%s not found:"
+msgstr "找不到 %s："
+
+#: /home/scott/beat-box/po/../src//Dialogs/FileNotFoundDialog.vala:177
+msgid "Locate Music File"
+msgstr "定位音樂檔"
+
+#: /home/scott/beat-box/po/../src//Utils/PlaylistUtils.vala:229
+msgid "Export Playlist"
+msgstr "匯出播放清單"
+
+#: /home/scott/beat-box/po/../core//Media/Media.vala:44
+msgid "Audiobook"
+msgid_plural "Audiobooks"
+msgstr[0] "有聲書"
+
+#: /home/scott/beat-box/po/../core//Media/Media.vala:48
+msgid "Video"
+msgid_plural "Videos"
+msgstr[0] "視訊"
+
+#: /home/scott/beat-box/po/../core//Media/Media.vala:50
+msgid "TV Show"
+msgid_plural "TV Shows"
+msgstr[0] "TV 秀"
+
+#: /home/scott/beat-box/po/../core//Media/Media.vala:52
+msgid "Media"
+msgid_plural "Medias"
+msgstr[0] "媒體"
+
+#: /home/scott/beat-box/po/../core//CellRenderers/CellDataFunctionHelper.vala:133
+#: /home/scott/beat-box/po/../plugins//Store/Widgets/StoreCellRenderer.vala:177
+msgid " kbps"
+msgstr " kbps"
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:44
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d 秒"
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:66
+#, c-format
+msgid "%i day"
+msgid_plural "%i days"
+msgstr[0] "%i 天"
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:70
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i 小時"
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:74
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i 分鐘"
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:84
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:94
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:98
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:106
+#, c-format
+msgid "%s and %s"
+msgstr "%s %s"
+
+#: /home/scott/beat-box/po/../core//Utils/TimeUtils.vala:92
+#, c-format
+msgid "%s, %s and %s"
+msgstr "%s %s %s"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:63
+msgid "Date Released"
+msgstr "發行日期"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:73
+msgid "Media Type"
+msgstr "媒體類型"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:75
+msgid "Play Count"
+msgstr "播放次數"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:154
+msgid "is"
+msgstr "是"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:156
+msgid "is exactly"
+msgstr "完全是"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:158
+msgid "is not"
+msgstr "不是"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:160
+msgid "is at least"
+msgstr "至少是"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:162
+msgid "is at most"
+msgstr "至多是"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:164
+msgid "is within"
+msgstr "在這之中"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:166
+msgid "is before"
+msgstr "在這之前"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:168
+msgid "contains"
+msgstr "包含"
+
+#: /home/scott/beat-box/po/../core//Playlists/SmartQuery.vala:170
+msgid "does not contain"
+msgstr "不包含"
+
+#: /home/scott/beat-box/po/../plugins//Store/Widgets/StoreView.vala:184
+msgid "Music Store"
+msgstr "音樂商店"
+
+#: /home/scott/beat-box/po/../plugins//Store/Widgets/AlbumView.vala:344
+#, c-format
+msgid "%s  by  %s"
+msgstr "來自 %2$s 的 %1$s"
+
+#~ msgid "Stop Syncing"
+#~ msgstr "停止同步"
+
+#, c-format
+#~ msgid "<b>Rules</b>"
+#~ msgstr "<b>規則</b>"
+
+#, c-format
+#~ msgid "Options</b>"
+#~ msgstr "選項</b>"
+
+#, c-format
+#~ msgid "<b>Name of Playlist</b>"
+#~ msgstr "<b>播放清單的名稱</b>"
+
+#~ msgid "Set Music Folder"
+#~ msgstr "設定音樂資料夾"
+
+#~ msgid "Add Podcast"
+#~ msgstr "加入 Podcast"
+
+#, c-format
+#~ msgid "Set Music Folder?"
+#~ msgstr "設定音樂資料夾？"
+
+#~ msgid ""
+#~ "The provided source is invalid. Make sure you are entering an RSS feed in "
+#~ "XML format."
+#~ msgstr "提供的來源無效。請確定您輸入的是 XML 格式的 RSS 饋流。"
+
+#, c-format
+#~ msgid "%s minutes"
+#~ msgstr "%s 分鐘"
+
+#, c-format
+#~ msgid "%s hours"
+#~ msgstr "%s 小時"
+
+#, c-format
+#~ msgid "%s days"
+#~ msgstr "%s 天"
+
+#~ msgid "audiobooks"
+#~ msgstr "有聲書"
+
+#~ msgid "songs"
+#~ msgstr "歌曲"
+
+#~ msgid "podcasts"
+#~ msgstr "Podcast"
+
+#, c-format
+#~ msgid "%i MB"
+#~ msgstr "%i MB"
+
+#, c-format
+#~ msgid "%.2f GB"
+#~ msgstr "%.2f GB"
+
+#~ msgid "stations"
+#~ msgstr "電臺"
+
+#~ msgid "Similar Media"
+#~ msgstr "類似媒體"
+
+#~ msgid "media"
+#~ msgstr "媒體"
+
+#~ msgid "items"
+#~ msgstr "項目"
+
+#~ msgid "Artists"
+#~ msgstr "藝人"
+
+#~ msgid "Albums"
+#~ msgstr "專輯"
+
+#~ msgid "Genres"
+#~ msgstr "曲風"
+
+#~ msgid "Top"
+#~ msgstr "頂端"
+
+#~ msgid "Left"
+#~ msgstr "左"
+
+#, c-format
+#~ msgid "All %i %s"
+#~ msgstr "所有 %i %s"
+
+#~ msgid "Years"
+#~ msgstr "年份"
+
+#~ msgid "Ratings"
+#~ msgstr "評等"
+
+#~ msgid "You can then start playing those medias, or save them for later."
+#~ msgstr "您可以接著播放那些媒體，或是稍候將它們儲存起來。"
+
+#~ msgid ""
+#~ "In this view, BeatBox will automatically find medias similar to the one you "
+#~ "are playing."
+#~ msgstr "在此檢視中，BeatBox 將自動尋找類似您正播放歌曲類似的媒體。"
+
+#~ msgid "Similar Media View"
+#~ msgstr "類似媒體檢視"
+
+#~ msgid "Loading similar songs"
+#~ msgstr "正在載入類似歌曲"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "BeatBox is loading songs similar to"
+#~ msgstr "BeatBox 正在載入歌曲，類似於"
+
+#~ msgid "BeatBox can't seem to find your music."
+#~ msgstr "BeatBox 似乎無法找到您的音樂。"
+
+#~ msgid "Add Playlist"
+#~ msgstr "加入播放清單"
+
+#~ msgid "BeatBox could not find songs similar to"
+#~ msgstr "BeatBox 找不到歌曲，類似於"
+
+#~ msgid "Rescan Music Folder"
+#~ msgstr "重新掃描音樂資料夾"
+
+#~ msgid "Show Info Panel"
+#~ msgstr "顯示資訊面板"
+
+#~ msgid "Hide Info Panel"
+#~ msgstr "隱藏資訊面板"
+
+#~ msgid "Hide"
+#~ msgstr "隱藏"
+
+#~ msgid "Similar"
+#~ msgstr "類似"
+
+#~ msgid "Show"
+#~ msgstr "顯示"
+
+#, c-format
+#~ msgid "<b>Importing</b> music from <b>%s</b> to library."
+#~ msgstr "正在從<b>%s</b> <b>匯入</b>音樂至珍藏館。"
+
+#~ msgid "Import Music"
+#~ msgstr "匯入音樂"
+
+#~ msgid "Rescanning music folder for changes"
+#~ msgstr "重新掃描音樂資料夾以取得變動資料"
+
+#~ msgid "Please make sure that your music folder is accessible and mounted."
+#~ msgstr "請確認您的音樂資料夾可以存取且已掛載。"
+
+#~ msgid ""
+#~ "Make sure all song info is correct and you are connected to the Internet.\n"
+#~ "Some songs may not have matches."
+#~ msgstr ""
+#~ "請確認所有歌曲資訊皆正確，且您已連接至網際網路。\n"
+#~ "有些歌曲可能沒有符合的。"
+
+#~ msgid "BeatBox has imported your library."
+#~ msgstr "BeatBox 已匯入您的珍藏館。"
+
+#~ msgid "New Smart Playlist"
+#~ msgstr "新增智慧型播放清單"

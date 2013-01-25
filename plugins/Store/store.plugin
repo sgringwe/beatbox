@@ -1,0 +1,8 @@
+[Plugin]
+Module=store
+IAge=2
+Name=Music Store
+Description=Browse and download media.
+Authors=Scott Ringwelski
+Copyright=Copyright © 2012 Scott Ringwelski
+Website=http://launchpad.net/beat-box

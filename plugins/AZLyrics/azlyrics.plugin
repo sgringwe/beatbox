@@ -1,0 +1,8 @@
+[Plugin]
+Module=azlyrics
+IAge=2
+Name=AZLyrics Fetcher
+Description=Fetches lyrics from AZLyrics
+Authors=Scott Ringwelski
+Copyright=Copyright © 2012 Scott Ringwelski
+Website=http://launchpad.net/beat-box

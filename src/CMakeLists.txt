@@ -1,0 +1,188 @@
+find_package(Vala REQUIRED)
+include(ValaVersion)
+ensure_vala_version("0.17.5" MINIMUM)
+include(ValaPrecompile)
+
+vala_precompile(VALA_C
+    BeatBox.vala
+
+    Core/Icons.vala
+    Core/Actions.vala
+    Core/LibraryWindow.vala
+    Core/LibraryManager.vala
+    Core/FileOperator.vala
+    Core/PodcastManager.vala
+	Core/PlaybackManager.vala
+	Core/OperationsManager.vala
+	Core/CoverManager.vala
+	Core/Info.vala
+	Core/PlaylistManager.vala
+	Core/ListSetupManager.vala
+	Core/LyricsManager.vala
+
+    CellRenderers/SideBarRenderer.vala
+    CellRenderers/SmartAlbumDataFunc.vala
+
+    DataBase/DataBaseManager.vala
+
+    DBus/MediaKeyListener.vala
+    DBus/UnityIntegration.vala
+    DBus/MPRIS/MPRIS.vala
+    DBus/MPRIS/SoundMenuIntegration.vala
+
+    Devices/DeviceManager.vala
+    Devices/iPodDevice.vala
+    Devices/AndroidDevice.vala
+    Devices/CDRomDevice.vala
+    
+    Dialogs/InstallGstreamerPluginsDialog.vala
+    Dialogs/FileNotFoundDialog.vala
+    Dialogs/RemoveFilesDialog.vala
+    Dialogs/NotImportedDialog.vala
+    Dialogs/SetLibraryFolderConfirmation.vala
+    Dialogs/TransferFromDeviceDialog.vala
+    Dialogs/SyncWarningDialog.vala
+    
+    Grids/GenericGrid.vala
+    Grids/AlbumGrid.vala
+    Grids/ExternalAlbumGrid.vala
+#    Grids/ArtistGrid.vala
+#    Grids/GenreGrid.vala
+
+    GStreamer/CDDA.vala
+    GStreamer/Video.vala
+    GStreamer/Equalizer.vala
+    GStreamer/Pipeline.vala
+    GStreamer/CDRipper.vala
+    GStreamer/GStreamerTagger.vala
+    GStreamer/ReplayGain.vala
+    GStreamer/Streamer.vala
+
+    Lastfm/LastFM.vala
+    Lastfm/SimilarMedia.vala
+    Lastfm/TopArtistSongs.vala
+    Lastfm/TopArtistAlbums.vala
+#    Lastfm/LastFMInfoSource.vala
+    
+    Libraries/BaseLibrary.vala
+    Libraries/SongLibrary.vala
+    Libraries/PodcastLibrary.vala
+    Libraries/StationLibrary.vala
+
+    Lists/GenericList.vala
+    Lists/MusicList.vala
+    Lists/PodcastList.vala
+    Lists/RadioList.vala
+    Lists/DuplicateList.vala
+    
+    Media/Song.vala
+    Media/Podcast.vala
+    Media/Station.vala
+    
+    NowPlayingView/NowPlayingView.vala
+    NowPlayingView/NowPlayingPage.vala
+    NowPlayingView/SongSummarySection.vala
+    NowPlayingView/SongArtistSection.vala
+    NowPlayingView/PodcastSummarySection.vala
+    
+    Preferences/BehaviorPreferences.vala
+    Preferences/LastfmPreferences.vala
+    Preferences/MusicPreferences.vala
+    Preferences/PluginPreferences.vala
+    Preferences/PodcastPreferences.vala
+
+    SourceViews/SourceView.vala
+    SourceViews/DefaultSourceView.vala
+    SourceViews/MusicSourceView.vala
+    SourceViews/PodcastSourceView.vala
+    SourceViews/StationSourceView.vala
+    SourceViews/DeviceSourceView.vala
+    SourceViews/SimilarSourceView.vala
+    SourceViews/DuplicateSourceView.vala
+    SourceViews/QueueSourceView.vala
+    SourceViews/HistorySourceView.vala
+    SourceViews/SmartPlaylistSourceView.vala
+    SourceViews/PlaylistSourceView.vala
+
+    Utils/PixbufUtils.vala
+    Utils/PlaylistUtils.vala
+
+    Views/DeviceView.vala
+    Views/DeviceSummaryWidget.vala
+    Views/SideTreeView.vala
+    Views/PopupListView.vala
+
+    Widgets/PresetList.vala
+    Widgets/SideBar.vala
+    Widgets/RatingWidget.vala
+    Widgets/SpaceWidget.vala
+    Widgets/StatusBar.vala
+    Widgets/AdvancedSearchBox.vala
+    Widgets/SourceViewSearchSuggestions.vala
+    Widgets/OptionChooser.vala
+    Widgets/SimpleOptionChooser.vala
+  #  Widgets/SearchSuggester.vala
+  #  Widgets/InfoPanel.vala
+    Widgets/VolumeWidget.vala
+    Widgets/EmbeddedAlert.vala
+    Widgets/TopDisplay/TopDisplay.vala
+    Widgets/TopDisplay/TimeScale.vala
+    Widgets/TopDisplay/MetadataDisplay.vala
+    Widgets/TopDisplay/BufferDisplay.vala
+    Widgets/TopDisplay/OperationDisplay.vala
+    Widgets/StyledWidgets/StyledArtistImages.vala
+    
+	Windows/Editors/FieldEditorImpl.vala
+    Windows/Editors/SmartPlaylistEditor.vala
+    Windows/Editors/MediaEditor.vala
+    Windows/Editors/SongEditor.vala
+    Windows/Editors/PodcastEditor.vala
+    Windows/Editors/StationEditor.vala
+    Windows/Editors/InfoViewport.vala
+
+    Windows/EqualizerWindow.vala
+    Windows/PreferencesWindow.vala
+    Windows/PlaylistNameWindow.vala
+    Windows/AddPodcastWindow.vala
+    Windows/RemoveDuplicatesDialog.vala
+    
+PACKAGES
+    glib-2.0
+    gtk+-3.0
+    gdk-x11-3.0
+    gee-1.0
+    gstreamer-0.10
+    gstreamer-interfaces-0.10
+    gstreamer-pbutils-0.10
+    gstreamer-cdda-0.10
+    taglib_c
+    gio-2.0
+    libxml-2.0
+    libnotify
+    libsoup-2.4
+    json-glib-1.0
+    gio-unix-2.0
+    granite
+    libgpod-1.0
+#    libpeas-1.0
+#	webkit-3.0 # Here we USE the gtk3 version
+    ${CMAKE_PROJECT_NAME}-core
+    ${ADD_PKG}
+OPTIONS
+    --vapidir=${CMAKE_SOURCE_DIR}/vapi
+    --vapidir=${CMAKE_BINARY_DIR}/core/
+    --target-glib=2.32
+    --define=USE_GRANITE_DECORATED_WINDOW
+    ${ADD_OPTIONS}
+GENERATE_VAPI
+    ${CMAKE_PROJECT_NAME}
+GENERATE_HEADER
+    ${CMAKE_PROJECT_NAME}
+)
+include_directories(${CMAKE_BINARY_DIR}/core)
+add_executable(${CMAKE_PROJECT_NAME} ${VALA_C})
+link_directories(${DEPS_LIBRARY_DIRS} ${ZEITGEIST_LIBRARY_DIRS} ${SQLHEAVY_LIBRARY_DIRS} ${INDICATE_LIBRARY_DIRS} ${DBUS_MENU_LIBRARY_DIRS} ${UNITY_LIBRARY_DIRS})
+add_definitions(${DEPS_CFLAGS} ${ZEITGEIST_CFLAGS} ${INDICATE_CFLAGS} ${DBUS_MENU_CFLAGS} ${SQLHEAVY_CFLAGS} ${UNITY_CFLAGS})
+target_link_libraries(${CMAKE_PROJECT_NAME} ${DEPS_LIBRARIES} ${ZEITGEIST_LIBRARIES} ${DBUS_MENU_LIBRARIES} ${SQLHEAVY_LIBRARIES} ${INDICATE_LIBRARIES} ${UNITY_LIBRARIES})
+target_link_libraries(${CMAKE_PROJECT_NAME} ${CMAKE_PROJECT_NAME}-core)
+install(TARGETS ${CMAKE_PROJECT_NAME} RUNTIME DESTINATION bin)

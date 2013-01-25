@@ -1,0 +1,14 @@
+public enum PodcastColumn {
+	ROWID,
+	ICON,
+	EPISODE,
+	NAME,
+	LENGTH,
+	ARTIST,
+	PODCAST,
+	DATE,
+	CATEGORY,
+	COMMENT,
+	RATING,
+	PULSER
+}

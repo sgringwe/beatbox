@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=0.5
+Name=BeatBox
+GenericName=Audio Player
+X-GNOME-FullName=BeatBox Audio Player
+X-GNOME-Gettext-Domain=beatbox
+Comment=Listen to music, podcasts and internet radio
+Exec=beatbox %U
+Icon=beatbox
+Terminal=false
+Categories=Audio;Music;Player;AudioVideo;GNOME;GTK;
+MimeType=x-content/audio-player;x-content/audio-cdda;application/x-ogg;application/ogg;audio/x-vorbis+ogg;audio/x-scpls;audio/x-mp3;audio/x-mpeg;audio/mpeg;audio/x-mpegurl;audio/x-flac;
+StartupNotify=true
