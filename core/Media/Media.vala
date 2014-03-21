@@ -109,10 +109,10 @@ public abstract class BeatBox.Media : GLib.Object {
 	public int date_released { get; set; default = 0; }
 	
 	// tags that all media types must have
-	public abstract string title { get; set; default = "Unknown Title"; }
-	public abstract string artist { get; set; default = "Unknown Artist"; }
-	public abstract string album { get; set; default = ""; }
-	public abstract string genre { get; set; default = ""; }
+	public abstract string title { get; set; }
+	public abstract string artist { get; set; }
+	public abstract string album { get; set; }
+	public abstract string genre { get; set; }
 	
 	public abstract MediaType media_type { get; }
 	public abstract bool is_local { get; }
