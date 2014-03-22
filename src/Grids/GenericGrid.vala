@@ -111,8 +111,8 @@ public abstract class BeatBox.GenericGrid : FastGrid {
 
 
 		this.add_events (Gdk.EventMask.POINTER_MOTION_MASK);
-		this.motion_notify_event.connect (on_motion_notify);
-		this.scroll_event.connect (on_scroll_event);
+		//this.motion_notify_event.connect (on_motion_notify);
+		//this.scroll_event.connect (on_scroll_event);
 
 		//this.button_press_event.connect (on_button_press);
 		this.button_release_event.connect (on_button_release);
@@ -127,7 +127,7 @@ public abstract class BeatBox.GenericGrid : FastGrid {
 
 	public void set_parent_wrapper(SourceView parent) {
 		this.parent_wrapper = parent;
-		hadjustment.changed.connect(on_resize);
+		//hadjustment.changed.connect(on_resize);
 		//vadjustment.value_changed.connect(view_scroll);
 	}
 	
