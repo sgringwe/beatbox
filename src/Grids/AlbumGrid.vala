@@ -27,6 +27,7 @@
 
 using Gee;
 using Gtk;
+using BeatBox.String;
 
 public class BeatBox.AlbumGrid : GenericGrid {
 
@@ -151,16 +152,18 @@ public class BeatBox.AlbumGrid : GenericGrid {
 		}
 		else if(column == MARKUP_COLUMN) {
 			string album_artist, album;
-			
-			if(a.get_album().length > 30)
-				album = a.get_album().normalize().substring(0, 27) + "...";
-			else
-				album = a.get_album();
+		
+			album = ellipsize(a.get_album(), 30);
+			//if(a.get_album().length > 30)
+			//	album = a.get_album().normalize().substring(0, 27) + "...";
+			//else
+			//	album = a.get_album();
 
-			if(a.get_album_artist().length > 25)
-				album_artist = a.get_album_artist().normalize().substring(0, 22) + "...";
-			else
-				album_artist = a.get_album_artist();
+			album_artist = ellipsize(a.get_album_artist(), 25);
+			//if(a.get_album_artist().length > 25)
+			//	album_artist = a.get_album_artist().normalize().substring(0, 22) + "...";
+			//else
+			//	album_artist = a.get_album_artist();
 			
 			album = Markup.escape_text(album);
 			album_artist = Markup.escape_text(album_artist);

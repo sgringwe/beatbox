@@ -27,6 +27,7 @@
 
 using Gee;
 using Gtk;
+using BeatBox.String;
 
 public class BeatBox.GenreGrid : GenericGrid {
 	
@@ -152,10 +153,11 @@ public class BeatBox.GenreGrid : GenericGrid {
 		else if(column == MARKUP_COLUMN) {
 			string genre;
 			
-			if(a.get_genre().length > 30)
-				genre = a.get_genre().substring(0, 27) + "...";
-			else
-				genre = a.get_genre();
+			genre = ellipsize(a.get_genre(), 30);
+			//if(a.get_genre().length > 30)
+			//	genre = a.get_genre().substring(0, 27) + "...";
+			//else
+			//	genre = a.get_genre();
 			
 			string plural = (a.count() > 1) ? "s" : "";
 			val = TEXT_MARKUP.printf(genre.replace("&", "&amp;"), a.count().to_string() + " " + parent_wrapper.media_representation + plural);

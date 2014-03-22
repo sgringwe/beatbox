@@ -134,7 +134,9 @@ namespace BeatBox.UI {
 		string rv = Markup.escape_text(s);
 		
 		if(s.length > max_length)
-			rv = Markup.escape_text(s.substring(0, max_length - 1)) + "...";
+			rv = Markup.escape_text(s.substring(
+						s.index_of_nth_char(0), 
+						s.index_of_nth_char(max_length - 1))) + "...";
 		
 		return rv;
 	}

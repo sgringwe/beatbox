@@ -145,7 +145,7 @@ vala_precompile(VALA_C
     Windows/PlaylistNameWindow.vala
     Windows/AddPodcastWindow.vala
     Windows/RemoveDuplicatesDialog.vala
-    
+
 PACKAGES
     glib-2.0
     gtk+-3.0

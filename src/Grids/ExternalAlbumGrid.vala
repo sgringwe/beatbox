@@ -27,6 +27,7 @@
 
 using Gee;
 using Gtk;
+using BeatBox.String;
 
 public class BeatBox.ExternalAlbumGrid : FastGrid {
 	public signal void item_chosen(GLib.Object o);
@@ -82,16 +83,18 @@ public class BeatBox.ExternalAlbumGrid : FastGrid {
 		else if(column == MARKUP_COLUMN) {
 			string artist, album;
 			
-			if(a.album.length > 25)
-				album = a.album.normalize().substring(0, 22) + "...";
-			else
-				album = a.album;
+			album = ellipsize(a.album, 25);
+			//if(a.album.length > 25)
+			//	album = a.album.normalize().substring(0, 22) + "...";
+			//else
+			//	album = a.album;
 			
 			if(a.show_artist) {
-				if(a.artist.length > 25)
-					artist = a.artist.normalize().substring(0, 22) + "...";
-				else
-					artist = a.artist;
+				artist = ellipsize(a.artist, 25);
+				//if(a.artist.length > 25)
+				//	artist = a.artist.normalize().substring(0, 22) + "...";
+				//else
+				//	artist = a.artist;
 			}
 			else {
 				artist = "";
