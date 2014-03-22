@@ -79,5 +79,33 @@ namespace BeatBox.String {
 		else
 			return str;
 	}
+
+	public void kmp_generate_table(string pattern, int[] table)
+	{
+		if(pattern.length > table.length) {
+			warning("size of given array is too small.");
+			return ;
+		}
+		table[0] = -1;
+		int j = -1;
+		for(int i = 1; i < pattern.length; i++) {
+			while(j >= 0 && pattern[j + 1].tolower() !=  pattern[i].tolower()) 
+				j = table[j];
+			if(pattern[j + 1].tolower() == pattern[i].tolower()) j++;
+			table[i] = j;
+		}
+	}
+
+	public bool kmp_is_match(string s, string pattern, int[] table)
+	{
+		int j = -1;
+		for(int i = 0; i < s.length; i++) {
+			while(j >= 0 && pattern[j + 1].tolower() != s[i].tolower()) 
+				j = table[j];
+			if(pattern[j + 1].tolower() == s[i].tolower()) j++;
+			if(j == pattern.length - 1) return true;
+		}
+		return false;
+	}
 }
 

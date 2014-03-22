@@ -27,6 +27,7 @@
 
 using Gee;
 using SQLHeavy;
+using BeatBox.String;
 
 /** This is where all the media stuff happens. Here, medias are retrieved
  * from the db, added to the queue, sorted, and more. LibraryWindow is
@@ -481,7 +482,11 @@ public class BeatBox.LibraryManager : GLib.Object, BeatBox.LibraryInterface {
 		year_results = new LinkedList<Media>();
 		rating_results = new LinkedList<Media>();
 
-		string l_search = search.down();
+		int[] kmp_table = null;
+		if(search.length > 0) {
+			kmp_table = new int[search.length];
+			kmp_generate_table(search, kmp_table);
+		}
 
 		bool include_temps = hint == TreeViewSetup.Hint.CDROM ||
 		                     hint == TreeViewSetup.Hint.DEVICE_AUDIO || 
@@ -492,26 +497,26 @@ public class BeatBox.LibraryManager : GLib.Object, BeatBox.LibraryInterface {
 		                     hint == TreeViewSetup.Hint.ALBUM_LIST;
 		
 		foreach(Media s in to_search) {
-			bool valid_song =   s != null &&
+			bool valid_song =   s != null && search.length > 0 &&
 			                  ( !s.isTemporary || include_temps ) &&
-			                  ( l_search in s.title.down() ||
-			                    l_search in s.album_artist.down() ||
-			                    l_search in s.artist.down() ||
-			                    l_search in s.album.down() ||
-			                    l_search in s.genre.down() ||
-			                    l_search == s.year.to_string()); // We want full match here
+			                  ( kmp_is_match(s.title, search, kmp_table) ||
+			                    kmp_is_match(s.album_artist, search, kmp_table) ||
+			                    kmp_is_match(s.artist, search, kmp_table) ||
+			                    kmp_is_match(s.album, search, kmp_table) ||
+			                    kmp_is_match(s.genre, search, kmp_table) ||
+			                    search == s.year.to_string()); // We want full match here
 
-			if (valid_song)
+			if (valid_song || search.length == 0)
 			{
 				if (rating == -1 || (int)s.rating == rating)
 				{
 					if (year == -1 || (int)s.year == year)
 					{
-						if (album_artist == "" || s.album_artist == album_artist)
+						if (album_artist.length == 0 || s.album_artist == album_artist)
 						{
-							if (genre == "" || s.genre == genre)
+							if (genre.length == 0 || s.genre == genre)
 							{
-								if (album == "" || s.album == album)
+								if (album.length == 0 || s.album == album)
 								{
 									results.add (s);
 								}
