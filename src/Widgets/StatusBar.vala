@@ -97,8 +97,7 @@ public class BeatBox.StatusBar : Granite.Widgets.StatusBar {
 
     private void update_label () {
         if (total_items == 0) {
-            // status_label.set_text ("");
-            warning("TODO: FIXME");
+            set_text ("");
             return;
         }
 
@@ -136,8 +135,7 @@ public class BeatBox.StatusBar : Granite.Widgets.StatusBar {
 
         medias_text = "%i %s".printf ((int)total_items, media_description);
 
-        warning("TODO: FIXME");
-        // status_label.set_text (STATUS_TEXT_FORMAT.printf (medias_text, time_text, size_text));
+        set_text (STATUS_TEXT_FORMAT.printf (medias_text, time_text, size_text));
     }
     
     
