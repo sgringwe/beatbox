@@ -27,6 +27,7 @@
 
 using Gee;
 using Gtk;
+using BeatBox.String;
 
 public abstract class BeatBox.GenericList : FastList {
 	protected SourceView parent_wrapper;
@@ -621,18 +622,27 @@ public abstract class BeatBox.GenericList : FastList {
 	 * View search. All lists use same search algorithm 
 	 * *************************************************/
 	protected void view_search_func (string search, HashTable<int, Media> table, ref HashTable<int, Media> show) {
+		if(search.length == 0) {
+			for(int i = 0; i < table.size(); i++)
+				show.set(i, table.get(i));
+			return ;
+		}
+		warning ("start search " + search);
 		int show_index = 0;
-		
+		int[] kmp_table = new int[search.length];
+
+		kmp_generate_table(search, kmp_table);
 		for(int i = 0; i < table.size(); ++i) {
 			Media m = table.get(i);
 			
-			if(search in m.artist.down() || search in m.album_artist.down() ||
-			search in m.album.down() || search in m.title.down() ||
-			search in m.genre.down()) {
+			if(kmp_is_match(m.artist, search, kmp_table) || 
+					kmp_is_match(m.album, search, kmp_table) ||
+					kmp_is_match(m.title, search, kmp_table) ||
+					kmp_is_match(m.genre, search, kmp_table)) {
 				if(parent_wrapper != null) {
-					if((m.album_artist.down() == parent_wrapper.artist_filter.down() || parent_wrapper.artist_filter == "") &&
-					(m.album.down() == parent_wrapper.album_filter.down() || parent_wrapper.album_filter == "") &&
-					(m.genre.down() == parent_wrapper.genre_filter.down() || parent_wrapper.genre_filter == "")) {
+					if((parent_wrapper.artist_filter.length == 0 || 0 == m.album_artist.ascii_casecmp(parent_wrapper.artist_filter)) &&
+					(parent_wrapper.album_filter.length == 0 || 0 == m.album.ascii_casecmp(parent_wrapper.album_filter)) &&
+					(parent_wrapper.genre_filter.length == 0 || 0 == m.genre.ascii_casecmp(parent_wrapper.genre_filter))) {
 						show.set(show_index++, table.get(i));
 					}
 				}
@@ -641,6 +651,7 @@ public abstract class BeatBox.GenericList : FastList {
 				}
 			}
 		}
+		warning("end search");
 	}
 	
 	/************************************************

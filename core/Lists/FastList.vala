@@ -140,6 +140,7 @@ public class BeatBox.FastList : TreeView {
 	}
 	
 	public void do_search (string? search) {
+		warning("begin do_search");
 		if(search_func == null)
 			return;
 		
@@ -158,35 +159,44 @@ public class BeatBox.FastList : TreeView {
 			search_func(last_search, table, ref showing);
 		//}
 		
-		if(showing.size() == old_size) {
-			fm.set_table(showing);
-			queue_draw();
-		}
-		else if(old_size == 0) { // if first population, just do normal
+		if(old_size == 0) {
 			set_model(null);
 			fm.set_table(showing);
 			set_model(fm);
-		}
-		else if(old_size > showing.size()) { // removing
-			while(fm.iter_n_children(null) > showing.size()) {
-				TreeIter iter;
-				fm.iter_nth_child(out iter, null, fm.iter_n_children(null) - 1);
-				fm.remove(iter);
-			}
-			
+		} else {
 			fm.set_table(showing);
 			queue_draw();
 		}
-		else if(showing.size() > old_size) { // adding
-			TreeIter iter;
-			
-			while(fm.iter_n_children(null) < showing.size()) {
-				fm.append(out iter);
-			}
-			
-			fm.set_table(showing);
-			queue_draw();
-		}
+
+		//if(showing.size() == old_size) {
+		//	fm.set_table(showing);
+		//	queue_draw();
+		//}
+		//else if(old_size == 0) { // if first population, just do normal
+		//	set_model(null);
+		//	fm.set_table(showing);
+		//	set_model(fm);
+		//}
+		//else if(old_size > showing.size()) { // removing
+		//	while(fm.iter_n_children(null) > showing.size()) {
+		//		TreeIter iter;
+		//		fm.iter_nth_child(out iter, null, fm.iter_n_children(null) - 1);
+		//		fm.remove(iter);
+		//	}
+		//	
+		//	fm.set_table(showing);
+		//	queue_draw();
+		//}
+		//else if(showing.size() > old_size) { // adding
+		//	TreeIter iter;
+		//	
+		//	while(fm.size() < showing.size())
+		//		fm.append(out iter);
+		//	
+		//	fm.set_table(showing);
+		//	queue_draw();
+		//}
+		warning("end do_search");
 	}
 	
 	public void redraw_row (int row_index) {

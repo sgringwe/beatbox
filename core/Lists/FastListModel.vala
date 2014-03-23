@@ -60,6 +60,10 @@ public class BeatBox.FastListModel : GLib.Object, TreeModel, TreeSortable, TreeD
 		stamp = (int)GLib.Random.next_int();
 	}
 
+	public uint size() {
+		return rows.size();
+	}
+
 	public Type get_column_type (int col) {
 		return columns.nth_data(col);
 	}
@@ -152,7 +156,8 @@ public class BeatBox.FastListModel : GLib.Object, TreeModel, TreeSortable, TreeD
 	public void append (out TreeIter iter) {
 		iter = TreeIter();
 		
-		TreePath path = new TreePath.from_string(((int)rows.size()).to_string());
+		TreePath path = new TreePath.from_indices(rows.size());
+		//TreePath path = new TreePath.from_string(((int)rows.size()).to_string());
 		rows.set((int)rows.size(), default_value);
 		iter.stamp = this.stamp;
 		iter.user_data = (void*)rows.size;
@@ -164,14 +169,15 @@ public class BeatBox.FastListModel : GLib.Object, TreeModel, TreeSortable, TreeD
 		if(iter.stamp != this.stamp)
 			return;
 
-		var path = new TreePath.from_string(((int)iter.user_data).to_string());
+		TreePath path = new TreePath.from_indices((int)iter.user_data);
+		//var path = new TreePath.from_string(((int)iter.user_data).to_string());
 		rows.remove((int)iter.user_data);
 		row_deleted(path);
 		
 		// TODO: swap all indices > this iter's index down to maintain that
 		// the table has row ids 0..n where n is rows.size (consecutive ids)
 	}
-	
+
 	// Not applicable to this custom treemodel
 	public new void set (TreeIter iter, ...) {
 		return;
@@ -191,9 +197,32 @@ public class BeatBox.FastListModel : GLib.Object, TreeModel, TreeSortable, TreeD
 	 * 0-n where n is size of the hashtable (no gaps).
 	**/
 	public void set_table (HashTable<int, Media> table) {
-		rows.remove_all();
-		for(int i = 0; i < table.size(); ++i)
-			rows.set(i, table.get(i));
+		uint n;
+		if(rows.size() == 0) {
+			for(int i = 0; i < table.size(); i++)
+				rows.set(i, table.get(i));
+		} else {
+			TreePath path;
+			if(rows.size() > table.size()) {
+				path = new TreePath.from_indices(size() - 1);
+				for(n = rows.size() - table.size(); n > 0; n--) {
+					row_deleted(path);
+					path.prev();
+				}
+			} else if(rows.size() < table.size()) {
+				path = new TreePath.from_indices(size());
+				TreeIter iter = TreeIter();
+				iter.stamp = this.stamp;
+				for(n = table.size() - rows.size(); n > 0; n--) {
+					iter.user_data = (void *)rows.size();
+					row_inserted(path, iter);
+					path.next();
+				}
+			}
+			rows.remove_all();
+			for(int i = 0; i < table.size(); ++i)
+				rows.set(i, table.get(i));
+		}
 	}
 	
 	/** Crucial. Must be set by user. Allows for this model to be abstract
