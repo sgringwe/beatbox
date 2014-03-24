@@ -8,8 +8,6 @@
  */
 
 public static int main (string[] args) {
-	info("Beatbox launched.");
-
 	try {
 		var opt_context = new OptionContext("- Beatbox Music Player.");
 		opt_context.set_help_enabled(true);

@@ -22,6 +22,7 @@ namespace Beatbox {
 	public class Beatbox : Granite.Application {
 
 		// TODO: Define modules here.
+		public static IconInterface icon_manager { get; private set; }
 
 		public static const OptionEntry[] available_options = {
 				{"debug", 'd', 0, OptionArg.NONE,
@@ -78,12 +79,15 @@ namespace Beatbox {
 			// TODO: Restore the window if exists
 
 			// Setup debugger
-			if (CommandLineOptions.verbose_enabled)
+			if (CommandLineOptions.verbose_enabled) {
 				Granite.Services.Logger.DisplayLevel = Granite.Services.LogLevel.DEBUG;
-			else
+				debug("Debug mode enabled.");
+			} else {
 				Granite.Services.Logger.DisplayLevel = Granite.Services.LogLevel.INFO;
+			}
 			
 			// TODO: Initialize everything
+			icon_manager = new IconManager();
 		}
 		
 		/**

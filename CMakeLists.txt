@@ -107,8 +107,6 @@ set(VERSION_INFO    "Alpha")
 
 add_definitions(-DGETTEXT_PACKAGE=\"${GETTEXT_PACKAGE}\")
 
-configure_file(${CMAKE_SOURCE_DIR}/config.vala.cmake ${CMAKE_SOURCE_DIR}/core/config.vala)
-
 add_subdirectory(vapi)
 add_subdirectory(src)
 add_subdirectory(data)
@@ -117,7 +115,7 @@ add_subdirectory(po)
 add_subdirectory(images)
 
 # Supress C compiler warnings
-option (BUILD_PLUGINS "Whether to build plugins or not" ON)
+option (BUILD_PLUGINS "Whether to build plugins or not" OFF)
 if (BUILD_PLUGINS)
     message("-- Plugins will be built")
     add_subdirectory(plugins)

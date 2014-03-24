@@ -8,6 +8,13 @@ configure_file(Config.vala.cmake Config.vala)
 vala_precompile(VALA_C
 	main.vala
 	Beatbox.vala
+
+    Interfaces/IconInterface.vala
+
+    Managers/IconManager.vala
+
+    Types/Icon.vala
+
 	${CMAKE_BINARY_DIR}/src/Config.vala
 
 PACKAGES
