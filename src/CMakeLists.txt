@@ -10,13 +10,16 @@ vala_precompile(VALA_C
 	Beatbox.vala
 
     Interfaces/IconInterface.vala
-    Interfaces/MediaInterface.vala
     Interfaces/LibraryInterface.vala
+    Interfaces/MediaInterface.vala
+    Interfaces/OperationInterface.vala
 
     Managers/IconManager.vala
+    Managers/OperationManager.vala
 
     Types/Icon.vala
     Types/Music.vala
+    Types/Operation.vala
 
 	${CMAKE_BINARY_DIR}/src/Config.vala
 
@@ -45,6 +48,7 @@ OPTIONS
     --vapidir=${CMAKE_BINARY_DIR}/core/
     --target-glib=2.32
     --define=USE_GRANITE_DECORATED_WINDOW
+    --thread
     ${ADD_OPTIONS}
 GENERATE_VAPI
     ${CMAKE_PROJECT_NAME}
