@@ -22,6 +22,7 @@ namespace Beatbox {
 	    }
 
 	    public enum FileType {
+	    	NONE,
 	        SVG,
 	        PNG
 	    }
