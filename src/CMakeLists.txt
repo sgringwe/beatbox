@@ -10,10 +10,13 @@ vala_precompile(VALA_C
 	Beatbox.vala
 
     Interfaces/IconInterface.vala
+    Interfaces/MediaInterface.vala
+    Interfaces/LibraryInterface.vala
 
     Managers/IconManager.vala
 
     Types/Icon.vala
+    Types/Music.vala
 
 	${CMAKE_BINARY_DIR}/src/Config.vala
 
